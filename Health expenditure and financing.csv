@@ -1,0 +1,1118 @@
+﻿Reference area,TIME_PERIOD,OBS_VALUE
+Chile,2000,7
+Chile,2001,7.097
+Chile,2002,7.208
+Chile,2003,7.25
+Chile,2004,6.91
+Chile,2005,6.624
+Chile,2006,6.072
+Chile,2007,6.213
+Chile,2008,6.74
+Chile,2009,7.858
+Chile,2010,6.82
+Chile,2011,6.799
+Chile,2012,7.02
+Chile,2013,7.476
+Chile,2014,7.842
+Chile,2015,8.351
+Chile,2016,8.558
+Chile,2017,9.091
+Chile,2018,9.226
+Chile,2019,9.363
+Chile,2020,9.727
+Chile,2021,9.343
+Chile,2022,9.002
+Bulgaria,2003,7.2
+Bulgaria,2004,6.891
+Bulgaria,2005,6.89
+Bulgaria,2006,6.525
+Bulgaria,2007,6.157
+Bulgaria,2008,6.283
+Bulgaria,2009,6.596
+Bulgaria,2010,7.096
+Bulgaria,2011,7.103
+Bulgaria,2012,7.539
+Bulgaria,2013,7.143
+Bulgaria,2014,7.683
+Bulgaria,2015,7.391
+Bulgaria,2016,7.457
+Bulgaria,2017,7.492
+Bulgaria,2018,7.329
+Bulgaria,2019,7.089
+Bulgaria,2020,8.478
+Bulgaria,2021,8.556
+United Kingdom,2000,7.093
+United Kingdom,2001,7.413
+United Kingdom,2002,7.821
+United Kingdom,2003,7.988
+United Kingdom,2004,8.253
+United Kingdom,2005,8.315
+United Kingdom,2006,8.475
+United Kingdom,2007,8.67
+United Kingdom,2008,8.968
+United Kingdom,2009,9.77
+United Kingdom,2010,9.705
+United Kingdom,2011,9.724
+United Kingdom,2012,9.814
+United Kingdom,2013,9.873
+United Kingdom,2014,9.862
+United Kingdom,2015,9.798
+United Kingdom,2016,9.729
+United Kingdom,2017,9.596
+United Kingdom,2018,9.731
+United Kingdom,2019,9.958
+United Kingdom,2020,12.159
+United Kingdom,2021,12.365
+United Kingdom,2022,11.345
+Colombia,2000,5.635
+Colombia,2001,5.942
+Colombia,2002,5.733
+Colombia,2003,5.775
+Colombia,2004,5.799
+Colombia,2005,6.067
+Colombia,2006,6.336
+Colombia,2007,6.491
+Colombia,2008,6.842
+Colombia,2009,7.311
+Colombia,2010,7.071
+Colombia,2011,6.781
+Colombia,2012,6.746
+Colombia,2013,7.017
+Colombia,2014,7.186
+Colombia,2015,7.523
+Colombia,2016,7.531
+Colombia,2017,7.679
+Colombia,2018,7.625
+Colombia,2019,7.78
+Colombia,2020,8.714
+Colombia,2021,9.018
+Colombia,2022,8.068
+Costa Rica,2000,6.565
+Costa Rica,2001,6.474
+Costa Rica,2002,6.869
+Costa Rica,2003,6.969
+Costa Rica,2004,6.63
+Costa Rica,2005,6.664
+Costa Rica,2006,6.935
+Costa Rica,2007,6.996
+Costa Rica,2008,7.469
+Costa Rica,2009,7.86
+Costa Rica,2010,8.029
+Costa Rica,2011,8.112
+Costa Rica,2012,7.782
+Costa Rica,2013,7.679
+Costa Rica,2014,7.662
+Costa Rica,2015,7.592
+Costa Rica,2016,7.315
+Costa Rica,2017,7.045
+Costa Rica,2018,7.286
+Costa Rica,2019,7.221
+Costa Rica,2020,7.825
+Costa Rica,2021,7.569
+Costa Rica,2022,7.168
+South Africa,2000,7.337
+South Africa,2001,7.123
+South Africa,2002,6.678
+South Africa,2003,7.041
+South Africa,2004,6.938
+South Africa,2005,6.862
+South Africa,2006,6.877
+South Africa,2007,6.905
+South Africa,2008,7.148
+South Africa,2009,7.649
+South Africa,2010,7.794
+South Africa,2011,7.944
+South Africa,2012,8.004
+South Africa,2013,8.103
+South Africa,2014,7.871
+South Africa,2015,8.053
+South Africa,2016,8.08
+South Africa,2017,7.977
+South Africa,2018,8.077
+South Africa,2019,8.23
+South Africa,2020,8.528
+Netherlands,2000,7.707
+Netherlands,2001,8.059
+Netherlands,2002,8.649
+Netherlands,2003,9.057
+Netherlands,2004,9.111
+Netherlands,2005,9.097
+Netherlands,2006,9.081
+Netherlands,2007,9.053
+Netherlands,2008,9.277
+Netherlands,2009,9.993
+Netherlands,2010,10.155
+Netherlands,2011,10.234
+Netherlands,2012,10.539
+Netherlands,2013,10.584
+Netherlands,2014,10.567
+Netherlands,2015,10.324
+Netherlands,2016,10.294
+Netherlands,2017,10.108
+Netherlands,2018,10.02
+Netherlands,2019,10.14
+Netherlands,2020,11.209
+Netherlands,2021,11.294
+Netherlands,2022,10.203
+Korea,2000,3.855
+Korea,2001,4.297
+Korea,2002,4.014
+Korea,2003,4.283
+Korea,2004,4.267
+Korea,2005,4.548
+Korea,2006,4.849
+Korea,2007,4.955
+Korea,2008,5.246
+Korea,2009,5.659
+Korea,2010,5.82
+Korea,2011,5.915
+Korea,2012,6.033
+Korea,2013,6.151
+Korea,2014,6.404
+Korea,2015,6.589
+Korea,2016,6.87
+Korea,2017,7.047
+Korea,2018,7.491
+Korea,2019,8.175
+Korea,2020,8.35
+Korea,2021,9.331
+Korea,2022,9.72
+Portugal,2000,8.601
+Portugal,2001,8.628
+Portugal,2002,8.786
+Portugal,2003,9.124
+Portugal,2004,9.533
+Portugal,2005,9.653
+Portugal,2006,9.354
+Portugal,2007,9.252
+Portugal,2008,9.583
+Portugal,2009,10.131
+Portugal,2010,10.033
+Portugal,2011,9.731
+Portugal,2012,9.654
+Portugal,2013,9.405
+Portugal,2014,9.343
+Portugal,2015,9.316
+Portugal,2016,9.394
+Portugal,2017,9.306
+Portugal,2018,9.413
+Portugal,2019,9.514
+Portugal,2020,10.548
+Portugal,2021,11.137
+Portugal,2022,10.624
+Mexico,2000,4.449
+Mexico,2001,4.82
+Mexico,2002,5.072
+Mexico,2003,5.815
+Mexico,2004,5.954
+Mexico,2005,5.836
+Mexico,2006,5.655
+Mexico,2007,5.766
+Mexico,2008,5.699
+Mexico,2009,6.13
+Mexico,2010,5.737
+Mexico,2011,5.519
+Mexico,2012,5.665
+Mexico,2013,5.809
+Mexico,2014,5.553
+Mexico,2015,5.723
+Mexico,2016,5.553
+Mexico,2017,5.458
+Mexico,2018,5.383
+Mexico,2019,5.448
+Mexico,2020,6.222
+Mexico,2021,6.079
+Mexico,2022,5.483
+Malta,2003,7.904
+Malta,2004,8.046
+Malta,2005,8.674
+Malta,2006,8.817
+Malta,2007,8.168
+Malta,2008,7.867
+Malta,2009,7.924
+Malta,2010,7.949
+Malta,2011,8.45
+Malta,2012,8.758
+Malta,2013,9.172
+Malta,2014,9.085
+Malta,2015,8.898
+Malta,2016,8.966
+Malta,2017,8.731
+Malta,2018,8.567
+Malta,2019,9.148
+Malta,2020,10.747
+Austria,2000,9.204
+Austria,2001,9.269
+Austria,2002,9.395
+Austria,2003,9.547
+Austria,2004,9.709
+Austria,2005,9.627
+Austria,2006,9.531
+Austria,2007,9.532
+Austria,2008,9.726
+Austria,2009,10.226
+Austria,2010,10.221
+Austria,2011,10.026
+Austria,2012,10.199
+Austria,2013,10.286
+Austria,2014,10.368
+Austria,2015,10.368
+Austria,2016,10.352
+Austria,2017,10.384
+Austria,2018,10.349
+Austria,2019,10.487
+Austria,2020,11.385
+Austria,2021,12.096
+Austria,2022,11.351
+Switzerland,2000,9.134
+Switzerland,2001,9.46
+Switzerland,2002,9.88
+Switzerland,2003,10.137
+Switzerland,2004,10.226
+Switzerland,2005,10.058
+Switzerland,2006,9.58
+Switzerland,2007,9.417
+Switzerland,2008,9.532
+Switzerland,2009,10.142
+Switzerland,2010,9.934
+Switzerland,2011,10.046
+Switzerland,2012,10.144
+Switzerland,2013,10.379
+Switzerland,2014,10.428
+Switzerland,2015,10.779
+Switzerland,2016,10.99
+Switzerland,2017,11.045
+Switzerland,2018,10.772
+Switzerland,2019,11.064
+Switzerland,2020,11.732
+Switzerland,2021,11.801
+Switzerland,2022,11.339
+Lithuania,2000,6.2
+Lithuania,2001,6.013
+Lithuania,2002,6.144
+Lithuania,2003,6.186
+Lithuania,2004,5.511
+Lithuania,2005,5.648
+Lithuania,2006,5.844
+Lithuania,2007,5.764
+Lithuania,2008,6.294
+Lithuania,2009,7.366
+Lithuania,2010,6.815
+Lithuania,2011,6.488
+Lithuania,2012,6.276
+Lithuania,2013,6.126
+Lithuania,2014,6.193
+Lithuania,2015,6.49
+Lithuania,2016,6.638
+Lithuania,2017,6.464
+Lithuania,2018,6.53
+Lithuania,2019,6.991
+Lithuania,2020,7.481
+Lithuania,2021,7.823
+Lithuania,2022,7.462
+Estonia,2000,5.164
+Estonia,2001,4.781
+Estonia,2002,4.703
+Estonia,2003,5.139
+Estonia,2004,5.338
+Estonia,2005,5.295
+Estonia,2006,4.974
+Estonia,2007,5.185
+Estonia,2008,5.957
+Estonia,2009,6.845
+Estonia,2010,6.594
+Estonia,2011,6.078
+Estonia,2012,6.095
+Estonia,2013,6.281
+Estonia,2014,6.362
+Estonia,2015,6.641
+Estonia,2016,6.702
+Estonia,2017,6.597
+Estonia,2018,6.691
+Estonia,2019,6.817
+Estonia,2020,7.579
+Estonia,2021,7.491
+Estonia,2022,6.943
+New Zealand,2000,7.47
+New Zealand,2001,7.579
+New Zealand,2002,7.9
+New Zealand,2003,7.722
+New Zealand,2004,7.901
+New Zealand,2005,8.273
+New Zealand,2006,8.638
+New Zealand,2007,8.329
+New Zealand,2008,9.124
+New Zealand,2009,9.621
+New Zealand,2010,9.593
+New Zealand,2011,9.52
+New Zealand,2012,9.652
+New Zealand,2013,9.36
+New Zealand,2014,9.402
+New Zealand,2015,9.283
+New Zealand,2016,9.244
+New Zealand,2017,8.97
+New Zealand,2018,9.038
+New Zealand,2019,9.069
+New Zealand,2020,9.689
+New Zealand,2021,10.125
+New Zealand,2022,11.208
+Norway,2000,7.703
+Norway,2001,8.01
+Norway,2002,8.983
+Norway,2003,9.194
+Norway,2004,8.796
+Norway,2005,8.299
+Norway,2006,7.882
+Norway,2007,8.017
+Norway,2008,7.915
+Norway,2009,9.033
+Norway,2010,8.858
+Norway,2011,8.735
+Norway,2012,8.722
+Norway,2013,8.874
+Norway,2014,9.283
+Norway,2015,10.07
+Norway,2016,10.53
+Norway,2017,10.23
+Norway,2018,9.96
+Norway,2019,10.438
+Norway,2020,11.249
+Norway,2021,9.919
+Norway,2022,7.92
+Luxembourg,2000,5.925
+Luxembourg,2001,6.381
+Luxembourg,2002,6.76
+Luxembourg,2003,6.961
+Luxembourg,2004,7.28
+Luxembourg,2005,7.125
+Luxembourg,2006,6.638
+Luxembourg,2007,6.158
+Luxembourg,2008,6.231
+Luxembourg,2009,6.95
+Luxembourg,2010,6.662
+Luxembourg,2011,5.952
+Luxembourg,2012,5.294
+Luxembourg,2013,5.236
+Luxembourg,2014,5.23
+Luxembourg,2015,5.081
+Luxembourg,2016,5.071
+Luxembourg,2017,5.135
+Luxembourg,2018,5.28
+Luxembourg,2019,5.47
+Luxembourg,2020,5.742
+Luxembourg,2021,5.668
+Luxembourg,2022,5.456
+Japan,2000,7.035
+Japan,2001,7.239
+Japan,2002,7.352
+Japan,2003,7.487
+Japan,2004,7.535
+Japan,2005,7.658
+Japan,2006,7.687
+Japan,2007,7.779
+Japan,2008,8.089
+Japan,2009,8.959
+Japan,2010,9.063
+Japan,2011,10.488
+Japan,2012,10.672
+Japan,2013,10.674
+Japan,2014,10.729
+Japan,2015,10.75
+Japan,2016,10.659
+Japan,2017,10.656
+Japan,2018,10.74
+Japan,2019,10.97
+Japan,2020,11.005
+Japan,2021,11.299
+Japan,2022,11.507
+Iceland,2000,8.899
+Iceland,2001,8.753
+Iceland,2002,9.404
+Iceland,2003,9.729
+Iceland,2004,9.329
+Iceland,2005,8.947
+Iceland,2006,8.557
+Iceland,2007,8.354
+Iceland,2008,8.344
+Iceland,2009,8.775
+Iceland,2010,8.362
+Iceland,2011,8.203
+Iceland,2012,8.181
+Iceland,2013,8.176
+Iceland,2014,8.229
+Iceland,2015,8.07
+Iceland,2016,8.097
+Iceland,2017,8.261
+Iceland,2018,8.378
+Iceland,2019,8.58
+Iceland,2020,9.615
+Iceland,2021,9.734
+Iceland,2022,8.572
+Germany,2000,9.888
+Germany,2001,9.921
+Germany,2002,10.184
+Germany,2003,10.402
+Germany,2004,10.146
+Germany,2005,10.312
+Germany,2006,10.18
+Germany,2007,10.051
+Germany,2008,10.251
+Germany,2009,11.238
+Germany,2010,11.096
+Germany,2011,10.778
+Germany,2012,10.853
+Germany,2013,10.999
+Germany,2014,11.026
+Germany,2015,11.19
+Germany,2016,11.242
+Germany,2017,11.336
+Germany,2018,11.481
+Germany,2019,11.716
+Germany,2020,12.693
+Germany,2021,12.934
+Germany,2022,12.655
+Sweden,2000,7.327
+Sweden,2001,7.9
+Sweden,2002,8.21
+Sweden,2003,8.317
+Sweden,2004,8.13
+Sweden,2005,8.151
+Sweden,2006,8.052
+Sweden,2007,7.996
+Sweden,2008,8.208
+Sweden,2009,8.77
+Sweden,2010,8.32
+Sweden,2011,10.416
+Sweden,2012,10.735
+Sweden,2013,10.905
+Sweden,2014,10.948
+Sweden,2015,10.804
+Sweden,2016,10.852
+Sweden,2017,10.785
+Sweden,2018,10.941
+Sweden,2019,10.832
+Sweden,2020,11.333
+Sweden,2021,11.247
+Sweden,2022,10.667
+India,2000,4.161
+India,2001,4.396
+India,2002,4.373
+India,2003,4.134
+India,2004,4.081
+India,2005,3.91
+India,2006,3.749
+India,2007,3.628
+India,2008,3.625
+India,2009,3.594
+India,2010,3.375
+India,2011,3.246
+India,2012,3.329
+India,2013,3.749
+India,2014,3.62
+India,2015,3.596
+India,2016,3.504
+India,2017,2.936
+India,2018,2.86
+India,2019,2.904
+India,2020,2.955
+United States,2000,12.49
+United States,2001,13.168
+United States,2002,13.995
+United States,2003,14.506
+United States,2004,14.551
+United States,2005,14.579
+United States,2006,14.709
+United States,2007,14.918
+United States,2008,15.207
+United States,2009,16.201
+United States,2010,16.197
+United States,2011,16.14
+United States,2012,16.12
+United States,2013,15.992
+United States,2014,16.199
+United States,2015,16.491
+United States,2016,16.802
+United States,2017,16.768
+United States,2018,16.63
+United States,2019,16.666
+United States,2020,18.756
+United States,2021,17.363
+United States,2022,16.634
+Latvia,2000,5.433
+Latvia,2001,5.77
+Latvia,2002,5.763
+Latvia,2003,5.479
+Latvia,2004,6.202
+Latvia,2005,5.832
+Latvia,2006,5.704
+Latvia,2007,5.512
+Latvia,2008,5.585
+Latvia,2009,6.098
+Latvia,2010,6.097
+Latvia,2011,5.724
+Latvia,2012,5.41
+Latvia,2013,5.409
+Latvia,2014,5.463
+Latvia,2015,5.652
+Latvia,2016,6.133
+Latvia,2017,5.965
+Latvia,2018,6.189
+Latvia,2019,6.614
+Latvia,2020,7.241
+Latvia,2021,9.045
+Latvia,2022,8.843
+Belgium,2000,7.999
+Belgium,2001,8.15
+Belgium,2002,8.318
+Belgium,2003,9.164
+Belgium,2004,9.328
+Belgium,2005,9.224
+Belgium,2006,9.13
+Belgium,2007,9.136
+Belgium,2008,9.595
+Belgium,2009,10.321
+Belgium,2010,10.202
+Belgium,2011,10.363
+Belgium,2012,10.502
+Belgium,2013,10.577
+Belgium,2014,10.609
+Belgium,2015,10.797
+Belgium,2016,10.794
+Belgium,2017,10.799
+Belgium,2018,10.861
+Belgium,2019,10.795
+Belgium,2020,11.198
+Belgium,2021,11.043
+Belgium,2022,10.94
+Slovenia,2000,7.804
+Slovenia,2001,7.876
+Slovenia,2002,8.021
+Slovenia,2003,8.099
+Slovenia,2004,7.94
+Slovenia,2005,7.996
+Slovenia,2006,7.823
+Slovenia,2007,7.511
+Slovenia,2008,7.855
+Slovenia,2009,8.541
+Slovenia,2010,8.565
+Slovenia,2011,8.536
+Slovenia,2012,8.715
+Slovenia,2013,8.74
+Slovenia,2014,8.502
+Slovenia,2015,8.517
+Slovenia,2016,8.478
+Slovenia,2017,8.185
+Slovenia,2018,8.277
+Slovenia,2019,8.499
+Slovenia,2020,9.433
+Slovenia,2021,9.478
+Slovenia,2022,8.847
+Greece,2000,7.243
+Greece,2001,7.988
+Greece,2002,8.234
+Greece,2003,8.449
+Greece,2004,8.094
+Greece,2005,8.565
+Greece,2006,8.259
+Greece,2007,8.398
+Greece,2008,8.828
+Greece,2009,9.407
+Greece,2010,9.597
+Greece,2011,9.193
+Greece,2012,8.924
+Greece,2013,8.438
+Greece,2014,7.891
+Greece,2015,8.22
+Greece,2016,8.449
+Greece,2017,8.135
+Greece,2018,8.12
+Greece,2019,8.198
+Greece,2020,9.504
+Greece,2021,9.173
+Greece,2022,8.588
+Peru,2000,4.415
+Peru,2001,4.722
+Peru,2002,4.939
+Peru,2003,4.587
+Peru,2004,4.43
+Peru,2005,4.666
+Peru,2006,4.41
+Peru,2007,4.426
+Peru,2008,4.533
+Peru,2009,4.965
+Peru,2010,4.715
+Peru,2011,4.535
+Peru,2012,4.735
+Peru,2013,4.749
+Peru,2014,4.964
+Peru,2015,4.961
+Peru,2016,4.96
+Peru,2017,4.881
+Peru,2018,5.16
+Peru,2019,5.179
+Peru,2020,6.286
+Hungary,2000,6.778
+Hungary,2001,6.826
+Hungary,2002,7.121
+Hungary,2003,8.121
+Hungary,2004,7.758
+Hungary,2005,7.985
+Hungary,2006,7.778
+Hungary,2007,7.204
+Hungary,2008,7.088
+Hungary,2009,7.222
+Hungary,2010,7.449
+Hungary,2011,7.481
+Hungary,2012,7.411
+Hungary,2013,7.234
+Hungary,2014,7.047
+Hungary,2015,6.854
+Hungary,2016,6.988
+Hungary,2017,6.744
+Hungary,2018,6.58
+Hungary,2019,6.282
+Hungary,2020,7.288
+Hungary,2021,7.376
+Hungary,2022,6.739
+Spain,2000,6.799
+Spain,2001,6.769
+Spain,2002,6.801
+Spain,2003,7.563
+Spain,2004,7.658
+Spain,2005,7.732
+Spain,2006,7.829
+Spain,2007,7.919
+Spain,2008,8.382
+Spain,2009,9.108
+Spain,2010,9.119
+Spain,2011,9.168
+Spain,2012,9.154
+Spain,2013,9.064
+Spain,2014,9.085
+Spain,2015,9.122
+Spain,2016,8.947
+Spain,2017,8.945
+Spain,2018,8.997
+Spain,2019,9.146
+Spain,2020,10.746
+Spain,2021,10.74
+Spain,2022,10.39
+Slovak Republic,2000,5.303
+Slovak Republic,2001,5.332
+Slovak Republic,2002,5.509
+Slovak Republic,2003,5.448
+Slovak Republic,2004,6.469
+Slovak Republic,2005,6.589
+Slovak Republic,2006,6.851
+Slovak Republic,2007,7.177
+Slovak Republic,2008,6.956
+Slovak Republic,2009,7.948
+Slovak Republic,2010,7.666
+Slovak Republic,2011,7.299
+Slovak Republic,2012,7.536
+Slovak Republic,2013,7.495
+Slovak Republic,2014,6.884
+Slovak Republic,2015,6.762
+Slovak Republic,2016,6.973
+Slovak Republic,2017,6.757
+Slovak Republic,2018,6.666
+Slovak Republic,2019,6.92
+Slovak Republic,2020,7.127
+Slovak Republic,2021,7.751
+Slovak Republic,2022,7.753
+Poland,2000,5.288
+Poland,2001,5.667
+Poland,2002,6.067
+Poland,2003,5.954
+Poland,2004,5.868
+Poland,2005,5.807
+Poland,2006,5.803
+Poland,2007,5.873
+Poland,2008,6.376
+Poland,2009,6.588
+Poland,2010,6.468
+Poland,2011,6.287
+Poland,2012,6.265
+Poland,2013,6.48
+Poland,2014,6.319
+Poland,2015,6.404
+Poland,2016,6.571
+Poland,2017,6.583
+Poland,2018,6.313
+Poland,2019,6.46
+Poland,2020,6.497
+Poland,2021,6.439
+Poland,2022,6.678
+Cyprus,2003,5.633
+Cyprus,2004,5.402
+Cyprus,2005,5.406
+Cyprus,2006,5.437
+Cyprus,2007,5.323
+Cyprus,2008,6.022
+Cyprus,2009,6.469
+Cyprus,2010,6.501
+Cyprus,2011,6.431
+Cyprus,2012,6.536
+Cyprus,2013,6.928
+Cyprus,2014,6.931
+Cyprus,2015,6.794
+Cyprus,2016,6.653
+Cyprus,2017,6.622
+Cyprus,2018,6.826
+Cyprus,2019,7.066
+Cyprus,2020,8.408
+Cyprus,2021,9.428
+Argentina,2000,8.22
+Argentina,2001,8.372
+Argentina,2002,7.393
+Argentina,2003,6.895
+Argentina,2004,7.229
+Argentina,2005,7.611
+Argentina,2006,7.64
+Argentina,2007,7.835
+Argentina,2008,8.183
+Argentina,2009,9.456
+Argentina,2010,9.445
+Argentina,2011,9.418
+Argentina,2012,9.827
+Argentina,2013,9.781
+Argentina,2014,9.671
+Argentina,2015,10.229
+Argentina,2016,9.002
+Argentina,2017,10.442
+Argentina,2018,9.534
+Argentina,2019,9.355
+Argentina,2020,9.984
+Finland,2000,7.093
+Finland,2001,7.251
+Finland,2002,7.628
+Finland,2003,7.938
+Finland,2004,8.059
+Finland,2005,8.288
+Finland,2006,8.284
+Finland,2007,8.084
+Finland,2008,8.343
+Finland,2009,9.161
+Finland,2010,9.142
+Finland,2011,9.223
+Finland,2012,9.586
+Finland,2013,9.805
+Finland,2014,9.781
+Finland,2015,9.645
+Finland,2016,9.378
+Finland,2017,9.127
+Finland,2018,9.043
+Finland,2019,9.171
+Finland,2020,9.632
+Finland,2021,10.25
+Finland,2022,10.039
+Canada,2000,8.248
+Canada,2001,8.625
+Canada,2002,8.857
+Canada,2003,9.011
+Canada,2004,9.066
+Canada,2005,9.035
+Canada,2006,9.342
+Canada,2007,9.445
+Canada,2008,9.608
+Canada,2009,10.662
+Canada,2010,10.676
+Canada,2011,10.38
+Canada,2012,10.51
+Canada,2013,10.412
+Canada,2014,10.258
+Canada,2015,10.739
+Canada,2016,11.032
+Canada,2017,10.906
+Canada,2018,10.905
+Canada,2019,11.009
+Canada,2020,13.035
+Canada,2021,12.334
+Canada,2022,11.155
+Denmark,2000,8.104
+Denmark,2001,8.448
+Denmark,2002,8.703
+Denmark,2003,8.904
+Denmark,2004,9.007
+Denmark,2005,9.091
+Denmark,2006,9.169
+Denmark,2007,9.325
+Denmark,2008,9.511
+Denmark,2009,10.674
+Denmark,2010,10.591
+Denmark,2011,10.388
+Denmark,2012,10.506
+Denmark,2013,10.31
+Denmark,2014,10.292
+Denmark,2015,10.328
+Denmark,2016,10.237
+Denmark,2017,10.098
+Denmark,2018,10.098
+Denmark,2019,10.152
+Denmark,2020,10.56
+Denmark,2021,10.824
+Denmark,2022,9.497
+Brazil,2000,8.335
+Brazil,2001,8.55
+Brazil,2002,8.697
+Brazil,2003,8.189
+Brazil,2004,8.125
+Brazil,2005,8.035
+Brazil,2006,8.25
+Brazil,2007,8.202
+Brazil,2008,8.011
+Brazil,2009,8.395
+Brazil,2010,7.945
+Brazil,2011,7.788
+Brazil,2012,7.736
+Brazil,2013,7.977
+Brazil,2014,8.396
+Brazil,2015,8.909
+Brazil,2016,9.169
+Brazil,2017,9.471
+Brazil,2018,9.465
+Brazil,2019,9.614
+Brazil,2020,10.12
+Italy,2000,7.567
+Italy,2001,7.738
+Italy,2002,7.867
+Italy,2003,7.833
+Italy,2004,8.165
+Italy,2005,8.339
+Italy,2006,8.437
+Italy,2007,8.136
+Italy,2008,8.533
+Italy,2009,8.952
+Italy,2010,8.916
+Italy,2011,8.774
+Italy,2012,8.784
+Italy,2013,8.775
+Italy,2014,8.868
+Italy,2015,8.857
+Italy,2016,8.725
+Italy,2017,8.678
+Italy,2018,8.682
+Italy,2019,8.656
+Italy,2020,9.625
+Italy,2021,9.384
+Italy,2022,9.002
+Australia,2000,7.594
+Australia,2001,7.678
+Australia,2002,7.876
+Australia,2003,7.881
+Australia,2004,8.087
+Australia,2005,7.97
+Australia,2006,7.977
+Australia,2007,8.055
+Australia,2008,8.249
+Australia,2009,8.545
+Australia,2010,8.42
+Australia,2011,8.537
+Australia,2012,8.675
+Australia,2013,8.751
+Australia,2014,9.834
+Australia,2015,10.182
+Australia,2016,10.093
+Australia,2017,10.123
+Australia,2018,10.06
+Australia,2019,10.22
+Australia,2020,10.684
+Australia,2021,10.59
+Australia,2022,9.646
+Czechia,2000,5.701
+Czechia,2001,5.863
+Czechia,2002,6.177
+Czechia,2003,6.524
+Czechia,2004,6.351
+Czechia,2005,6.341
+Czechia,2006,6.164
+Czechia,2007,5.986
+Czechia,2008,6.33
+Czechia,2009,7.249
+Czechia,2010,7.586
+Czechia,2011,7.558
+Czechia,2012,7.624
+Czechia,2013,7.521
+Czechia,2014,7.612
+Czechia,2015,7.369
+Czechia,2016,7.446
+Czechia,2017,7.381
+Czechia,2018,7.47
+Czechia,2019,7.603
+Czechia,2020,9.214
+Czechia,2021,9.489
+Czechia,2022,9.088
+Israel,2000,6.617
+Israel,2001,7.018
+Israel,2002,6.923
+Israel,2003,6.855
+Israel,2004,6.801
+Israel,2005,6.903
+Israel,2006,6.71
+Israel,2007,6.695
+Israel,2008,6.828
+Israel,2009,6.916
+Israel,2010,6.888
+Israel,2011,6.839
+Israel,2012,6.976
+Israel,2013,6.958
+Israel,2014,7.045
+Israel,2015,7.022
+Israel,2016,7.096
+Israel,2017,7.176
+Israel,2018,7.228
+Israel,2019,7.174
+Israel,2020,7.707
+Israel,2021,7.905
+Israel,2022,7.427
+Indonesia,2000,1.842
+Indonesia,2001,2.106
+Indonesia,2002,1.969
+Indonesia,2003,2.235
+Indonesia,2004,2.107
+Indonesia,2005,2.517
+Indonesia,2006,2.604
+Indonesia,2007,2.807
+Indonesia,2008,2.548
+Indonesia,2009,2.623
+Indonesia,2010,2.791
+Indonesia,2011,2.989
+Indonesia,2012,2.914
+Indonesia,2013,2.869
+Indonesia,2014,2.964
+Indonesia,2015,2.924
+Indonesia,2016,3.021
+Indonesia,2017,2.904
+Indonesia,2018,2.868
+Indonesia,2019,2.905
+Indonesia,2020,3.413
+France,2000,9.584
+France,2001,9.706
+France,2002,10.022
+France,2003,10.083
+France,2004,10.164
+France,2005,10.215
+France,2006,10.386
+France,2007,10.316
+France,2008,10.501
+France,2009,11.288
+France,2010,11.226
+France,2011,11.185
+France,2012,11.297
+France,2013,11.396
+France,2014,11.539
+France,2015,11.448
+France,2016,11.471
+France,2017,11.355
+France,2018,11.208
+France,2019,11.089
+France,2020,12.131
+France,2021,12.308
+France,2022,12.102
+Ireland,2000,5.899
+Ireland,2001,6.392
+Ireland,2002,6.673
+Ireland,2003,7.008
+Ireland,2004,7.22
+Ireland,2005,7.642
+Ireland,2006,7.516
+Ireland,2007,7.808
+Ireland,2008,9.126
+Ireland,2009,10.523
+Ireland,2010,10.524
+Ireland,2011,10.606
+Ireland,2012,10.598
+Ireland,2013,10.277
+Ireland,2014,9.513
+Ireland,2015,7.336
+Ireland,2016,7.469
+Ireland,2017,7.125
+Ireland,2018,6.876
+Ireland,2019,6.709
+Ireland,2020,7.109
+Ireland,2021,6.717
+Ireland,2022,6.071
+Croatia,2003,6.295
+Croatia,2004,6.504
+Croatia,2005,6.839
+Croatia,2006,6.912
+Croatia,2007,7.405
+Croatia,2008,7.651
+Croatia,2009,8.082
+Croatia,2010,7.988
+Croatia,2011,7.464
+Croatia,2012,7.495
+Croatia,2013,6.425
+Croatia,2014,6.61
+Croatia,2015,6.69
+Croatia,2016,6.725
+Croatia,2017,6.657
+Croatia,2018,6.75
+Croatia,2019,6.802
+Croatia,2020,7.729
+Croatia,2021,8.102
+Romania,2003,5.371
+Romania,2004,5.477
+Romania,2005,5.528
+Romania,2006,5.071
+Romania,2007,5.023
+Romania,2008,5.023
+Romania,2009,5.278
+Romania,2010,5.64
+Romania,2011,4.475
+Romania,2012,4.509
+Romania,2013,5.224
+Romania,2014,5.028
+Romania,2015,4.943
+Romania,2016,5.08
+Romania,2017,5.189
+Romania,2018,5.518
+Romania,2019,5.714
+Romania,2020,6.226
+Romania,2021,6.479
+China (People’s Republic of),2000,4.487
+China (People’s Republic of),2001,4.235
+China (People’s Republic of),2002,4.369
+China (People’s Republic of),2003,4.409
+China (People’s Republic of),2004,4.281
+China (People’s Republic of),2005,4.184
+China (People’s Republic of),2006,3.95
+China (People’s Republic of),2007,3.68
+China (People’s Republic of),2008,3.886
+China (People’s Republic of),2009,4.339
+China (People’s Republic of),2010,4.194
+China (People’s Republic of),2011,4.309
+China (People’s Republic of),2012,4.57
+China (People’s Republic of),2013,4.742
+China (People’s Republic of),2014,4.8
+China (People’s Republic of),2015,4.961
+China (People’s Republic of),2016,4.977
+China (People’s Republic of),2017,5.047
+China (People’s Republic of),2018,5.148
+China (People’s Republic of),2019,5.373
+China (People’s Republic of),2020,5.66
+Türkiye,2000,4.6
+Türkiye,2001,4.888
+Türkiye,2002,5.062
+Türkiye,2003,5.014
+Türkiye,2004,4.91
+Türkiye,2005,4.894
+Türkiye,2006,5.146
+Türkiye,2007,5.238
+Türkiye,2008,5.218
+Türkiye,2009,5.494
+Türkiye,2010,5.021
+Türkiye,2011,4.653
+Türkiye,2012,4.444
+Türkiye,2013,4.371
+Türkiye,2014,4.325
+Türkiye,2015,4.117
+Türkiye,2016,4.285
+Türkiye,2017,4.18
+Türkiye,2018,4.124
+Türkiye,2019,4.366
+Türkiye,2020,4.617
+Türkiye,2021,4.565
+Türkiye,2022,4.276
+,,
+
