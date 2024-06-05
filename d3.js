@@ -1,200 +1,182 @@
-// Path to the data file (adjust if necessary)
-let data_file_path = './Merged_health_data_by_year.json';
-let selectedYear = 2022; // Default selected year
-let allData = {}; // Object to store all loaded data
 
-// Load data and initialize dropdown
-d3.json(data_file_path).then(data => {
-    if (!data) {
-        console.error("Failed to load data."); // Error handling if data loading fails
-        return;
-    }
-    allData = data; // Store loaded data
+// Set dimensions and margins for the graph
+const svgWidth = 1000;
+const svgHeight = 800; // Increased height to accommodate thicker bars
+const margin = { top: 20, right: 30, bottom: 40, left: 150 };
+const width = svgWidth - margin.left - margin.right;
+const height = svgHeight - margin.top - margin.bottom;
 
-    // Populate year dropdown
-    const years = Object.keys(data).sort((a, b) => a - b); // Get and sort years
-    const yearDropdown = d3.select('#yearDropdown'); // Select the dropdown element
+// Append SVG object to the body
+const svg = d3.select("svg")
+    .attr("width", svgWidth)
+    .attr("height", svgHeight)
+    .append("g")
+    .attr("transform", `translate(${margin.left},${margin.top})`);
 
-    yearDropdown.selectAll('option')
-        .data(years)
+// Create the tooltip div and append it to the body
+var tooltip = d3.select("body")
+  .append("div")
+  .attr("class", "tooltip")
+  .style("opacity", 0);
+
+// Load JSON data
+d3.json("Merged_health_data_by_year.json").then(data => {
+    // Process data for a specific year
+    const year = "2011"; // Change this to the desired year
+    const countries = Object.keys(data[year]);
+
+    const processedData = countries.map(country => ({
+        group: country,
+        GDP: +data[year][country].GDP,
+        healthStatusValue: data[year][country]["Health status value"] ? +data[year][country]["Health status value"] : 0
+    }));
+
+    // Initialize Y axis to calculate maximum label width
+    const y0 = d3.scaleBand()
+        .domain(processedData.map(d => d.group))
+        .range([height, 0])
+        .padding(0.1); // Reduced padding to increase bar thickness
+
+    // Calculate maximum label width
+    const text = svg.append("g")
+        .selectAll(".countryLabel")
+        .data(processedData)
         .enter()
-        .append('option')
-        .attr('value', d => d)
-        .text(d => d);
+        .append("text")
+        .attr("class", "countryLabel")
+        .attr("x", width / 2) // Temporarily place labels
+        .attr("y", d => y0(d.group) + y0.bandwidth() / 2)
+        .attr("dy", ".35em")
+        .attr("text-anchor", "middle")
+        .text(d => d.group)
+        .style("font-size", "12px");
 
-    // Update chart when the selected year changes
-    yearDropdown.on('change', function() {
-        selectedYear = +this.value;
-        updateChart();
-    });
+    const maxLabelWidth = Math.max(...text.nodes().map(d => d.getBBox().width));
+    text.remove(); // Remove temporary labels
 
-    // Initial chart update
-    updateChart();
-}).catch(error => {
-    console.error("Error loading the data file:", error); // Error handling if file loading fails
+    const labelWidth = maxLabelWidth + 10; // Adding some padding
+
+    const y1 = d3.scaleBand()
+        .domain(['GDP', 'healthStatusValue'])
+        .range([0, y0.bandwidth()])
+        .padding(0.2); // Reduced padding to increase bar thickness
+
+    // X axis for GDP (left) and Health status value (right)
+    const maxGDP = d3.max(processedData, d => d.GDP);
+    const maxHealthStatusValue = d3.max(processedData, d => d.healthStatusValue);
+
+    const xLeft = d3.scaleLinear()
+        .domain([0, maxGDP * 1.1]) // Adjusted domain to include padding for the max GDP
+        .range([(width / 2) - (labelWidth / 2), 0]);
+
+    const xRight = d3.scaleLinear()
+        .domain([0, maxHealthStatusValue * 1.1]) // Adjusted domain to include padding for the max health status value
+        .range([0, (width / 2) - (labelWidth / 2)]);
+
+    // Add Y axis to the SVG without labels and remove lines
+    svg.append("g")
+        .call(d3.axisLeft(y0).tickSize(0).tickFormat(''))
+        .selectAll("path")
+        .style("stroke", "none"); // Remove Y axis line
+
+    // Add X axis for GDP to the left
+    svg.append("g")
+        .attr("transform", `translate(0,${height})`)
+        .call(d3.axisBottom(xLeft).ticks(10));
+
+    // Add X axis for Health status value to the right
+    svg.append("g")
+        .attr("transform", `translate(${width / 2 + labelWidth / 2},${height})`)
+        .call(d3.axisBottom(xRight).ticks(10));
+
+    // Bars for GDP (left side)
+    svg.selectAll(".barLeft")
+        .data(processedData)
+        .enter()
+        .append("rect")
+        .attr("class", "barLeft")
+        .attr("y", d => y0(d.group) + y1('GDP'))
+        .attr("height", y1.bandwidth())
+        .attr("x", d => xLeft(d.GDP)) // Start from the right
+        .attr("width", d => xLeft(0) - xLeft(d.GDP)) // Adjust width calculation
+        .style("fill", "steelblue")
+        .on("mouseover", function(event, d) {
+            tooltip.transition()
+                .duration(200)
+                .style("opacity", .9);
+            tooltip.html("Country: " + d.group + "<br/>GDP: " + d.GDP)
+                .style("left", (event.pageX + 5) + "px")
+                .style("top", (event.pageY - 28) + "px");
+        })
+        .on("mouseout", function(d) {
+            tooltip.transition()
+                .duration(500)
+                .style("opacity", 0);
+        });
+
+    // Bars for Health status value (right side)
+    svg.selectAll(".barRight")
+        .data(processedData)
+        .enter()
+        .append("rect")
+        .attr("class", "barRight")
+        .attr("y", d => y0(d.group) + y1('GDP')) // Align bars at the same y-coordinate
+        .attr("height", y1.bandwidth())
+        .attr("x", width / 2 + labelWidth / 2)
+        .attr("width", d => xRight(d.healthStatusValue))
+        .style("fill", "orange")
+        .on("mouseover", function(event, d) {
+            tooltip.transition()
+                .duration(200)
+                .style("opacity", .9);
+            tooltip.html("Country: " + d.group + "<br/>Health Status Value: " + d.healthStatusValue)
+                .style("left", (event.pageX + 5) + "px")
+                .style("top", (event.pageY - 28) + "px");
+        })
+        .on("mouseout", function(d) {
+            tooltip.transition()
+                .duration(500)
+                .style("opacity", 0);
+        });
+
+    // Add country labels in the middle with dynamic spacing
+    svg.selectAll(".countryLabel")
+        .data(processedData)
+        .enter()
+        .append("text")
+        .attr("class", "countryLabel")
+        .attr("x", width / 2) // Center of the chart
+        .attr("y", d => y0(d.group) + y0.bandwidth() / 2)
+        .attr("dy", ".35em")
+        .attr("text-anchor", "middle")
+        .text(d => d.group)
+        .style("font-size", "12px");
+
+    // Add labels for the axes
+    svg.append("text")
+        .attr("class", "axis-label")
+        .attr("transform", `translate(${(width / 4) - (labelWidth / 4)},${height + margin.bottom - 10})`)
+        .attr("text-anchor", "middle")
+        .text("GDP");
+
+    svg.append("text")
+        .attr("class", "axis-label")
+        .attr("transform", `translate(${(3 * width / 4) + (labelWidth / 4)},${height + margin.bottom - 10})`)
+        .attr("text-anchor", "middle")
+        .text("Health Status Value");
+
+    // Add Y axis labels on the right and remove lines
+    svg.append("g")
+        .attr("transform", `translate(${width + labelWidth / 2}, 0)`)
+        .call(d3.axisRight(y0).tickSize(0))
+        .selectAll("path")
+        .style("stroke", "none"); // Remove Y axis line on the right
+
+    // Add 'Countries' label in the middle below the x-axis
+    svg.append("text")
+        .attr("class", "axis-label")
+        .attr("transform", `translate(${width / 2},${height + margin.bottom - 10})`)
+        .attr("text-anchor", "middle")
+        .text("Countries");
 });
 
-// Function to update the chart based on the selected year
-function updateChart() {
-    const filteredData = Object.values(allData[selectedYear] || {}); // Filter data for the selected year
-    drawBarChart(filteredData); // Draw the bar chart with the filtered data
-}
-
-// Select the SVG element and set up margins and dimensions
-const svg = d3.select('svg');
-const margin = { top: 20, right: 30, bottom: 150, left: 60 };
-const width = +svg.attr('width') - margin.left - margin.right;
-const height = +svg.attr('height') - margin.top - margin.bottom;
-
-// Define color scale for health status values
-const color = d3.scaleLinear()
-    .domain([0, 50, 100])
-    .range(['red', 'yellow', 'green']);
-
-// Function to get the inverse color
-const getInverseColor = (color) => {
-    if (!color) return 'black';
-    const rgb = d3.color(color).rgb();
-    return `rgb(${255 - rgb.r}, ${255 - rgb.g}, ${255 - rgb.b})`;
-};
-
-// Tooltip setup
-const tooltip = d3.select('body').append('div')
-    .attr('class', 'tooltip')
-    .style('visibility', 'hidden');
-
-// Function to update the chart title
-function updateTitle(title) {
-    d3.select('.chart-title').text(title);
-}
-
-// Function to draw the bar chart
-function drawBarChart(data) {
-    updateTitle(`Health Expenditure as Percentage of GDP in ${selectedYear}`);
-    tooltip.style('visibility', 'hidden'); // Hide tooltip initially
-    svg.selectAll("*").remove(); // Clear previous chart elements
-
-    // Set up scales for the bar chart
-    const x = d3.scaleBand()
-        .domain(data.map(d => d.Country))
-        .range([margin.left, width - margin.right])
-        .padding(0.1);
-
-    const y = d3.scaleLinear()
-        .domain([0, d3.max(data, d => +d.GDP) || 0]).nice()
-        .range([height - margin.bottom, margin.top]);
-
-    // Define x-axis
-    const xAxis = g => g
-        .attr('transform', `translate(0,${height - margin.bottom})`)
-        .call(d3.axisBottom(x).tickSizeOuter(0))
-        .selectAll("text")
-        .attr("transform", "rotate(-45)")
-        .style("text-anchor", "end");
-
-    // Define y-axis
-    const yAxis = g => g
-        .attr('transform', `translate(${margin.left},0)`)
-        .call(d3.axisLeft(y));
-
-    // Create bars for the bar chart
-    svg.append('g')
-        .selectAll('.bar')
-        .data(data)
-        .join('rect')
-        .attr('class', 'bar')
-        .attr('x', d => x(d.Country))
-        .attr('y', y(0))
-        .attr('height', 0)
-        .attr('width', x.bandwidth())
-        .attr('fill', d => d['Health status value'] ? color(d['Health status value']) : 'gray')
-        .on('mouseover', function(event, d) {
-            const originalColor = d['Health status value'] ? color(d['Health status value']) : 'gray';
-            const inverseColor = getInverseColor(originalColor);
-            d3.select(this).attr('fill', inverseColor);
-            tooltip.html(`Country: ${d.Country}<br>Expenditure: ${d.GDP}%<br>Health Status: ${d['Health status'] ? d['Health status'] : 'No Data'}`)
-                .style('visibility', 'visible');
-        })
-        .on('mousemove', function(event) {
-            tooltip.style('top', `${event.pageY - 10}px`).style('left', `${event.pageX + 10}px`);
-        })
-        .on('mouseout', function(event, d) {
-            d3.select(this).attr('fill', d['Health status value'] ? color(d['Health status value']) : 'gray');
-            tooltip.style('visibility', 'hidden');
-        })
-        .transition()
-        .duration(1000)
-        .attr('y', d => y(d.GDP))
-        .attr('height', d => y(0) - y(d.GDP));
-
-    // Append x-axis to the SVG
-    svg.append('g')
-        .call(xAxis);
-
-    // Append y-axis to the SVG
-    svg.append('g')
-        .call(yAxis);
-
-    // Add y-axis label
-    svg.append("text")
-        .attr("text-anchor", "middle")
-        .attr("transform", "rotate(-90)")
-        .attr("y", margin.left - 60)
-        .attr("x", -height / 3)
-        .attr("dy", "1em")
-        .text("GDP %");
-
-    // Add x-axis label
-    svg.append("text")
-        .attr("text-anchor", "middle")
-        .attr("x", width / 2.30 + margin.left)
-        .attr("y", height - 70)
-        .text("Country");
-
-    // Add legend for health status colors
-    const legendWidth = 200;
-    const legend = svg.append('g')
-        .attr('transform', `translate(${(width - legendWidth) / 2},${height - 40})`);
-
-    const legendGradient = svg.append("defs")
-        .append("linearGradient")
-        .attr("id", "legendGradient")
-        .attr("x1", "0%")
-        .attr("x2", "100%")
-        .attr("y1", "0%")
-        .attr("y2", "0%");
-
-    legendGradient.append("stop")
-        .attr("offset", "0%")
-        .attr("stop-color", "red");
-
-    legendGradient.append("stop")
-        .attr("offset", "50%")
-        .attr("stop-color", "yellow");
-
-    legendGradient.append("stop")
-        .attr("offset", "100%")
-        .attr("stop-color", "green");
-
-    legend.append("rect")
-        .attr("x", 0)
-        .attr("y", 0)
-        .attr("width", legendWidth)
-        .attr("height", 20)
-        .style("fill", "url(#legendGradient)");
-
-    legend.append("text")
-        .attr("x", 0)
-        .attr("y", 40)
-        .text("Poor Health")
-        .style("font-size", "11px")
-        .style("alignment-baseline", "middle");
-
-    legend.append("text")
-        .attr("x", legendWidth)
-        .attr("y", 40)
-        .text("Good Health")
-        .style("font-size", "11px")
-        .style("alignment-baseline", "middle")
-        .style("text-anchor", "end");
-}
