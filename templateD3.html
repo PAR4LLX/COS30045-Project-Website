@@ -1,26 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Specifies the character encoding for the HTML document -->
+<head>
     <meta charset="UTF-8">
-    <!-- Sets the viewport to make the website look good on all devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Provides instructions to Internet Explorer on how to handle the document -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Title of the webpage displayed in the browser tab -->
     <title>D3 Visualisations</title>
-    <!-- Includes the D3.js library for data visualizations -->
     <script src="https://d3js.org/d3.v6.min.js"></script>
-    <!-- Links to the external CSS stylesheet for styling the webpage -->
     <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <!-- Main heading of the webpage -->
-    <h1 id="graph-title">Health Expenditure and Status</h1>
-    <!-- Dropdown menu for selecting the year -->
-    <svg width="1000" height="600"></svg>      
-    <!-- Includes the external JavaScript file for D3 visualizations -->
+</head>
+<body>
+    <div class="container">
+        <h1 id="graph-title">Health Expenditure and Status</h1>
+        <div class="dropdown-container">
+            <!-- Dropdown menu for selecting the year -->
+            <div>
+                <label for="yearSelect">Select Year:</label>
+                <select id="yearSelect"></select>
+            </div>
+            <!-- Dropdown menu for selecting the health status type -->
+            <div>
+                <label for="healthType">Select Health Status:</label>
+                <select id="healthType">
+                    <option value="Good/very good health">Good Health</option>
+                    <option value="Fair (not good, not bad) health">Fair Health</option>
+                    <option value="Bad/very bad health">Poor Health</option>
+                </select>
+            </div>
+        </div>
+        <!-- Container for the D3 visualization -->
+        <svg width="1000" height="600"></svg>
+    </div>
     <script src="d3.js"></script>
-  </body>
+</body>
 </html>
 

@@ -1,7 +1,6 @@
-
 // Set dimensions and margins for the graph
 const svgWidth = 1000;
-const svgHeight = 800; // Increased height to accommodate thicker bars
+const svgHeight = 600;
 const margin = { top: 20, right: 30, bottom: 40, left: 150 };
 const width = svgWidth - margin.left - margin.right;
 const height = svgHeight - margin.top - margin.bottom;
@@ -21,15 +20,46 @@ var tooltip = d3.select("body")
 
 // Load JSON data
 d3.json("Merged_health_data_by_year.json").then(data => {
-    // Process data for a specific year
-    const year = "2011"; // Change this to the desired year
+    // Populate year dropdown
+    const years = Object.keys(data);
+    const yearSelect = d3.select("#yearSelect");
+
+    yearSelect.selectAll("option")
+      .data(years)
+      .enter()
+      .append("option")
+      .attr("value", d => d)
+      .text(d => d);
+
+    // Initial load with default health status type and year
+    updateChart(data, "Good/very good health", years[0]);
+
+    // Add event listener to dropdowns
+    d3.select("#healthType").on("change", function () {
+        const selectedHealthType = d3.select(this).property("value");
+        const selectedYear = d3.select("#yearSelect").property("value");
+        updateChart(data, selectedHealthType, selectedYear);
+    });
+
+    d3.select("#yearSelect").on("change", function () {
+        const selectedHealthType = d3.select("#healthType").property("value");
+        const selectedYear = d3.select(this).property("value");
+        updateChart(data, selectedHealthType, selectedYear);
+    });
+});
+
+function updateChart(data, healthType, year) {
+    // Clear the existing SVG content
+    svg.selectAll("*").remove();
+
+    // Process data for the selected year
     const countries = Object.keys(data[year]);
 
     const processedData = countries.map(country => ({
         group: country,
         GDP: +data[year][country].GDP,
-        healthStatusValue: data[year][country]["Health status value"] ? +data[year][country]["Health status value"] : 0
-    }));
+        healthStatusValue: data[year][country][healthType] ? +data[year][country][healthType] : 0
+    })).filter(country => country.healthStatusValue !== 0 && !isNaN(country.GDP)); // Filter out countries with missing health or GDP data
 
     // Initialize Y axis to calculate maximum label width
     const y0 = d3.scaleBand()
@@ -63,15 +93,41 @@ d3.json("Merged_health_data_by_year.json").then(data => {
 
     // X axis for GDP (left) and Health status value (right)
     const maxGDP = d3.max(processedData, d => d.GDP);
-    const maxHealthStatusValue = d3.max(processedData, d => d.healthStatusValue);
 
     const xLeft = d3.scaleLinear()
         .domain([0, maxGDP * 1.1]) // Adjusted domain to include padding for the max GDP
         .range([(width / 2) - (labelWidth / 2), 0]);
 
     const xRight = d3.scaleLinear()
-        .domain([0, maxHealthStatusValue * 1.1]) // Adjusted domain to include padding for the max health status value
+        .domain([0, 100]) // Fixed domain for health status value
         .range([0, (width / 2) - (labelWidth / 2)]);
+
+    // Add vertical grid lines
+    const gridLines = svg.append("g")
+        .attr("class", "grid")
+        .selectAll("line")
+        .data(xRight.ticks(10))
+        .enter()
+        .append("line")
+        .attr("x1", d => xRight(d) + width / 2 + labelWidth / 2)
+        .attr("x2", d => xRight(d) + width / 2 + labelWidth / 2)
+        .attr("y1", 0)
+        .attr("y2", height)
+        .attr("stroke", "white")
+        .attr("stroke-width", 1);
+
+    svg.append("g")
+        .attr("class", "grid")
+        .selectAll("line")
+        .data(xLeft.ticks(10))
+        .enter()
+        .append("line")
+        .attr("x1", d => xLeft(d))
+        .attr("x2", d => xLeft(d))
+        .attr("y1", 0)
+        .attr("y2", height)
+        .attr("stroke", "white")
+        .attr("stroke-width", 1);
 
     // Add Y axis to the SVG without labels and remove lines
     svg.append("g")
@@ -88,6 +144,16 @@ d3.json("Merged_health_data_by_year.json").then(data => {
     svg.append("g")
         .attr("transform", `translate(${width / 2 + labelWidth / 2},${height})`)
         .call(d3.axisBottom(xRight).ticks(10));
+
+    // Determine bar color based on health type
+    let barColor;
+    if (healthType === "Good/very good health") {
+        barColor = "green";
+    } else if (healthType === "Fair (not good, not bad) health") {
+        barColor = "yellow";
+    } else if (healthType === "Bad/very bad health") {
+        barColor = "red";
+    }
 
     // Bars for GDP (left side)
     svg.selectAll(".barLeft")
@@ -124,7 +190,7 @@ d3.json("Merged_health_data_by_year.json").then(data => {
         .attr("height", y1.bandwidth())
         .attr("x", width / 2 + labelWidth / 2)
         .attr("width", d => xRight(d.healthStatusValue))
-        .style("fill", "orange")
+        .style("fill", barColor)
         .on("mouseover", function(event, d) {
             tooltip.transition()
                 .duration(200)
@@ -157,13 +223,13 @@ d3.json("Merged_health_data_by_year.json").then(data => {
         .attr("class", "axis-label")
         .attr("transform", `translate(${(width / 4) - (labelWidth / 4)},${height + margin.bottom - 10})`)
         .attr("text-anchor", "middle")
-        .text("GDP");
+        .text("GDP %");
 
     svg.append("text")
         .attr("class", "axis-label")
         .attr("transform", `translate(${(3 * width / 4) + (labelWidth / 4)},${height + margin.bottom - 10})`)
         .attr("text-anchor", "middle")
-        .text("Health Status Value");
+        .text("Health Status %");
 
     // Add Y axis labels on the right and remove lines
     svg.append("g")
@@ -178,5 +244,5 @@ d3.json("Merged_health_data_by_year.json").then(data => {
         .attr("transform", `translate(${width / 2},${height + margin.bottom - 10})`)
         .attr("text-anchor", "middle")
         .text("Countries");
-});
+}
 
