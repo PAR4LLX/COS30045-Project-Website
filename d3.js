@@ -15,14 +15,15 @@ const svg = d3.select("svg")
 // Create the tooltip div and append it to the body
 var tooltip = d3.select("body")
   .append("div")
-  .attr("class", "tooltip")
-  .style("opacity", 0)
-  .style("position", "absolute")
-  .style("background-color", "white")
-  .style("border", "solid")
-  .style("border-width", "1px")
-  .style("border-radius", "5px")
-  .style("padding", "10px");
+      .attr("class", "tooltip")
+      .style("visibility", "hidden")  
+    .style("position", "absolute")
+      .style("background-color", "white")
+      .style("border", "solid")
+      .style("border-width", "1px")
+      .style("border-radius", "5px")
+      .style("padding", "10px");
+
 
 // Function to update the chart
 function updateChart(data, healthType, year) {
@@ -69,10 +70,10 @@ function updateChart(data, healthType, year) {
         .padding(0.2); // Reduced padding to increase bar thickness
 
     // X axis for GDP (left) and Health status value (right)
-    const maxGDP = d3.max(processedData, d => d.GDP);
+    const maxGDP = Math.ceil(d3.max(processedData, d => d.GDP))
 
     const xLeft = d3.scaleLinear()
-        .domain([0, maxGDP * 1.1]) // Adjusted domain to include padding for the max GDP
+        .domain([0, maxGDP]) // Adjusted domain to include padding for the max GDP
         .range([0, (width / 2) - (labelWidth / 2)]); // Correct range for right-to-left orientation
 
     const xRight = d3.scaleLinear()
@@ -99,12 +100,16 @@ function updateChart(data, healthType, year) {
         .data(xLeft.ticks(10))
         .enter()
         .append("line")
-        .attr("x1", d => width / 2 - labelWidth / 2 - xLeft(d))
-        .attr("x2", d => width / 2 - labelWidth / 2 - xLeft(d))
+        .attr("x1", d => xLeft(d))
+        .attr("x2", d => xLeft(d))
         .attr("y1", 0)
         .attr("y2", height)
         .attr("stroke", "white")
         .attr("stroke-width", 1);
+
+    const xLeft2 = d3.scaleLinear()
+        .domain([0, maxGDP]) // Adjusted domain to include padding for the max GDP
+        .range([(width / 2) - (labelWidth / 2),0]); // Correct range for right-to-left orientation
 
     // Add Y axis to the SVG without labels and remove lines
     svg.append("g")
@@ -115,7 +120,8 @@ function updateChart(data, healthType, year) {
     // Add X axis for GDP to the left
     svg.append("g")
         .attr("transform", `translate(0,${height})`)
-        .call(d3.axisBottom(xLeft).ticks(10).tickFormat(d => d)); // Ensure positive values
+        .append("g")
+        .call(d3.axisBottom(xLeft2).ticks(10)); // Ensure positive values
 
     // Add X axis for Health status value to the right
     svg.append("g")
@@ -140,26 +146,24 @@ function updateChart(data, healthType, year) {
         .attr("class", "barLeft")
         .attr("y", d => y0(d.group) + y1('GDP'))
         .attr("height", y1.bandwidth())
-        .attr("x", width / 2 - labelWidth / 2) // Start position for the bars
+        .attr("x", width / 2 - labelWidth / 2)
         .attr("width", 0) // Start with width 0 for animation
         .style("fill", "steelblue")
         .on("mouseover", function(event, d) {
-            tooltip.transition()
-                .duration(200)
-                .style("opacity", .9);
-            tooltip.html("Country: " + d.group + "<br/>GDP: " + d.GDP)
-                .style("left", (event.pageX + 5) + "px")
+               tooltip.style("visibility", "visible")            
+            tooltip.html("Country: " + d.group + "<br/>GDP: " + d.GDP);
+        })
+        .on("mousemove", function(event) {
+            tooltip.style("left", (event.pageX + 25) + "px")
                 .style("top", (event.pageY - 28) + "px");
         })
-        .on("mouseout", function() {
-            tooltip.transition()
-                .duration(500)
-                .style("opacity", 0);
+        .on("mouseout", () => {
+            tooltip.style("visibility", "hidden")
         })
         .transition()
         .duration(1000) // Animation duration
-        .attr("x", d => width / 2 - labelWidth / 2 - xLeft(d.GDP)) // Animate to the correct position
-        .attr("width", d => xLeft(d.GDP)); // Animate to the correct width
+        .attr("x", d => width / 2 - labelWidth / 2 - xLeft(d.GDP)) // Correct x position for right-to-left orientation
+        .attr("width", d => xLeft(d.GDP)); // Animate to final width
 
     // Bars for Health status value (right side)
     svg.selectAll(".barRight")
@@ -173,17 +177,15 @@ function updateChart(data, healthType, year) {
         .attr("width", 0) // Start with width 0 for animation
         .style("fill", barColor)
         .on("mouseover", function(event, d) {
-            tooltip.transition()
-                .duration(200)
-                .style("opacity", .9);
-            tooltip.html("Country: " + d.group + "<br/>Health Status Value: " + d.healthStatusValue)
-                .style("left", (event.pageX + 5) + "px")
+        tooltip.style("visibility", "visible")
+            tooltip.html("Country: " + d.group + "<br/>Health Status Value: " + d.healthStatusValue);
+        })
+        .on("mousemove", function(event) {
+            tooltip.style("left", (event.pageX + 25) + "px")
                 .style("top", (event.pageY - 28) + "px");
         })
-        .on("mouseout", function() {
-            tooltip.transition()
-                .duration(500)
-                .style("opacity", 0);
+        .on("mouseout", () => {
+            tooltip.style("visibility", "hidden")
         })
         .transition()
         .duration(1000) // Animation duration
