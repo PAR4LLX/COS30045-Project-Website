@@ -1,3 +1,4 @@
+
 // Set dimensions and margins for the graph
 const svgWidth = 1000;
 const svgHeight = 600;
@@ -24,7 +25,6 @@ var tooltip = d3.select("body")
       .style("border-radius", "5px")
       .style("padding", "10px");
 
-
 // Function to update the chart
 function updateChart(data, healthType, year) {
     // Clear the existing SVG content
@@ -36,8 +36,16 @@ function updateChart(data, healthType, year) {
     const processedData = countries.map(country => ({
         group: country,
         GDP: +data[year][country].GDP,
-        healthStatusValue: data[year][country][healthType] ? +data[year][country][healthType] : 0
+        Good: +data[year][country]["Good/very good health"] || 0,
+        Fair: +data[year][country]["Fair (not good, not bad) health"] || 0,
+        Poor: +data[year][country]["Bad/very bad health"] || 0,
+        healthStatusValue: +data[year][country][healthType] || 0
     })).filter(country => country.healthStatusValue !== 0 && !isNaN(country.GDP)); // Filter out countries with missing health or GDP data
+
+    // Calculate max values for each health type from the processed data
+    const maxGood = d3.max(processedData, d => d.Good);
+    const maxFair = d3.max(processedData, d => d.Fair);
+    const maxPoor = d3.max(processedData, d => d.Poor);
 
     // Initialize Y axis to calculate maximum label width
     const y0 = d3.scaleBand()
@@ -128,15 +136,28 @@ function updateChart(data, healthType, year) {
         .attr("transform", `translate(${width / 2 + labelWidth / 2},${height})`)
         .call(d3.axisBottom(xRight).ticks(10));
 
-    // Determine bar color based on health type
-    let barColor;
+    // Determine base color and maximum value based on health type
+    let baseColor;
+    let maxHealthStatus;
     if (healthType === "Good/very good health") {
-        barColor = "green";
+        baseColor = "green";
+        maxHealthStatus = maxGood;
     } else if (healthType === "Fair (not good, not bad) health") {
-        barColor = "yellow";
+        baseColor = "yellow";
+        maxHealthStatus = maxFair;
     } else if (healthType === "Bad/very bad health") {
-        barColor = "red";
+        baseColor = "red";
+        maxHealthStatus = maxPoor;
     }
+
+    // Color scales for luminosity
+    const gdpColorScale = d3.scaleLinear()
+        .domain([0, maxGDP])
+        .range([d3.rgb("lightblue").brighter(2), d3.rgb("darkblue").darker(2)]);
+
+    const healthColorScale = d3.scaleLinear()
+        .domain([0, maxHealthStatus])
+        .range([d3.rgb(baseColor).brighter(2), d3.rgb(baseColor).darker(2)]);
 
     // Bars for GDP (left side)
     svg.selectAll(".barLeft")
@@ -148,7 +169,7 @@ function updateChart(data, healthType, year) {
         .attr("height", y1.bandwidth())
         .attr("x", width / 2 - labelWidth / 2)
         .attr("width", 0) // Start with width 0 for animation
-        .style("fill", "steelblue")
+        .style("fill", d => gdpColorScale(d.GDP))
         .on("mouseover", function(event, d) {
                tooltip.style("visibility", "visible")            
             tooltip.html("Country: " + d.group + "<br/>GDP: " + d.GDP);
@@ -175,7 +196,7 @@ function updateChart(data, healthType, year) {
         .attr("height", y1.bandwidth())
         .attr("x", width / 2 + labelWidth / 2)
         .attr("width", 0) // Start with width 0 for animation
-        .style("fill", barColor)
+        .style("fill", d => healthColorScale(d.healthStatusValue))
         .on("mouseover", function(event, d) {
         tooltip.style("visibility", "visible")
             tooltip.html("Country: " + d.group + "<br/>Health Status Value: " + d.healthStatusValue);

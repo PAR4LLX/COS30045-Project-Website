@@ -7,29 +7,80 @@
     <title>D3 Visualisations</title>
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #1c1c1c; /* Dark stone background */
+        }
+        main {
+            flex: 1;
+            padding-top: 4rem; /* Adjust based on the navbar height */
+        }
+        select {
+            background-color: #2d2d2d; /* Dark background */
+            color: #d1d5db; /* Light gray text color */
+        }
+        option {
+            background-color: #2d2d2d; /* Dark background */
+            color: #d1d5db; /* Light gray text color */
+        }
+        .content-area {
+            background-color: #2d2d2d; /* Dark background for content area */
+            padding: 2rem;
+            border-radius: 0.375rem; /* Rounded corners */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Shadow for better separation */
+        }
+    </style>
 </head>
-<body>
-    <div class="container">
-        <h1 id="graph-title">Health Expenditure vs Health Status</h1>
-        <div class="dropdown-container">
-            <!-- Dropdown menu for selecting the year -->
+<body class="bg-stone-900">
+    <!-- Navbar -->
+    <nav class="bg-stone-800 w-full p-4 fixed top-0 z-10">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-xl font-bold text-white">D3 Visualisations</a>
             <div>
-                <label for="yearSelect">Select Year:</label>
-                <select id="yearSelect"></select>
-            </div>
-            <!-- Dropdown menu for selecting the health status type -->
-            <div>
-                <label for="healthType">Select Health Status:</label>
-                <select id="healthType">
-                    <option value="Good/very good health">Good Health</option>
-                    <option value="Fair (not good, not bad) health">Fair Health</option>
-                    <option value="Bad/very bad health">Poor Health</option>
-                </select>
+                <a href="templateD3.html" class="text-stone-300 text-white px-3">Visualisation 1</a>
+                <a href="#" class="text-stone-300 text-white px-3">Visualisation 2</a>
+                <a href="#" class="text-stone-300 text-white px-3">Visualisation 3</a>
             </div>
         </div>
-        <!-- Container for the D3 visualization -->
-        <svg width="1000" height="600"></svg>
-    </div>
+    </nav>
+
+    <main class="container mx-auto mt-16">
+        <div class="content-area">
+            <h1 id="graph-title" class="text-2xl font-bold text-center mb-8 text-white">Health Expenditure vs Health Status</h1>
+            <div class="dropdown-container flex justify-around mb-4">
+                <!-- Dropdown menu for selecting the year -->
+                <div>
+                    <label for="yearSelect" class="block mb-2 text-white">Select Year:</label>
+                    <select id="yearSelect" class="bg-stone-700 text-white p-2 rounded"></select>
+                </div>
+                <!-- Dropdown menu for selecting the health status type -->
+                <div>
+                    <label for="healthType" class="block mb-2 text-white">Select Health Status:</label>
+                    <select id="healthType" class="bg-stone-700 text-white p-2 rounded">
+                        <option value="Good/very good health">Good Health</option>
+                        <option value="Fair (not good, not bad) health">Fair Health</option>
+                        <option value="Bad/very bad health">Poor Health</option>
+                    </select>
+                </div>
+            </div>
+            <!-- Container for the D3 visualization -->
+            <div class="flex justify-center bg-stone-800 p-4 rounded-lg">
+                <svg width="1000" height="600"></svg>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-stone-800 w-full p-4 mt-8">
+        <div class="container mx-auto text-center">
+            <p class="text-white">&copy; 2024 D3 Visualisations. All rights reserved.</p>
+        </div>
+    </footer>
+
     <script src="d3.js"></script>
 </body>
 </html>

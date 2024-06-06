@@ -1,5 +1,13 @@
+main {
+    flex: 1;
+    padding-top: 4rem; /* Adjust based on the navbar height */
+}
+
 /* Style for the body to center the content vertically and horizontally */
 body {
+    flex-direction: column;
+    min-height: 100vh;
+
     display: flex; /* Use flexbox layout */
     justify-content: center; /* Center content horizontally */
     align-items: center; /* Center content vertically */
