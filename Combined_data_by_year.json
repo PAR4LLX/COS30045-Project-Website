@@ -1,0 +1,3366 @@
+{
+    "2008": {
+        "Germany": {
+            "population": "70357.02",
+            "employment": "4613"
+        },
+        "Hungary": {
+            "population": "8364.525",
+            "employment": "263.829"
+        },
+        "Finland": {
+            "population": "4396.775",
+            "employment": "360.5"
+        },
+        "Italy": {
+            "population": "50415.2",
+            "employment": "1707.5"
+        },
+        "Slovenia": {
+            "population": "1750.975",
+            "employment": "52.373"
+        },
+        "Spain": {
+            "population": "38851.27",
+            "employment": "1256.9"
+        },
+        "Iceland": {
+            "population": "222.725",
+            "employment": "20.1"
+        },
+        "Estonia": {
+            "population": "1135.475",
+            "employment": "32.99"
+        },
+        "Latvia": {
+            "population": "1857.9",
+            "employment": "51.725"
+        },
+        "Israel": {
+            "population": "5232.9",
+            "employment": "289.399896"
+        },
+        "Norway": {
+            "population": "3496.3",
+            "employment": "504"
+        },
+        "United Kingdom": {
+            "population": "49362.5",
+            "employment": "3383.405"
+        },
+        "Denmark": {
+            "population": "4476.5",
+            "employment": "506"
+        },
+        "Portugal": {
+            "population": "8921.475",
+            "employment": "330.56"
+        },
+        "Lithuania": {
+            "population": "2715",
+            "employment": "88.927"
+        },
+        "Japan": {
+            "population": "110809.2",
+            "employment": "6223"
+        },
+        "Sweden": {
+            "population": "7661.5",
+            "employment": "743"
+        },
+        "Ireland": {
+            "population": "3577.075",
+            "employment": "226.09611"
+        },
+        "Mexico": {
+            "population": "78008.34",
+            "employment": "1106.994"
+        },
+        "Belgium": {
+            "population": "8903.575",
+            "employment": "495.3"
+        },
+        "European Union (27 countries from 01/02/2020)": {
+            "population": "367243.1",
+            "employment": "18099.723637"
+        },
+        "Euro area (20 countries)": {
+            "population": "277919.2",
+            "employment": "14901.557842"
+        },
+        "Luxembourg": {
+            "population": "380.55",
+            "employment": "28.296"
+        },
+        "Greece": {
+            "population": "9435.125",
+            "employment": "232.87"
+        },
+        "Australia": {
+            "population": "17112.79",
+            "employment": "1191.971631"
+        },
+        "Switzerland": {
+            "population": "6416.7",
+            "employment": "502.089597"
+        },
+        "Slovak Republic": {
+            "population": "4535",
+            "employment": "127.911"
+        },
+        "United States": {
+            "population": "233788",
+            "employment": "18235"
+        },
+        "France": {
+            "population": "49492.2",
+            "employment": "3482"
+        },
+        "Austria": {
+            "population": "6923.45",
+            "employment": "374.01"
+        },
+        "Canada": {
+            "population": "26830.65",
+            "employment": "1796.155"
+        },
+        "Czechia": {
+            "population": "8943.8",
+            "employment": "295.234"
+        },
+        "Poland": {
+            "population": "31372.43",
+            "employment": "853.8"
+        },
+        "Netherlands": {
+            "population": "13315.22",
+            "employment": "1305"
+        }
+    },
+    "2017": {
+        "Slovak Republic": {
+            "population": "4595.1",
+            "employment": "136.647"
+        },
+        "United States": {
+            "population": "255079",
+            "employment": "20718"
+        },
+        "France": {
+            "population": "53177.65",
+            "employment": "3910"
+        },
+        "Austria": {
+            "population": "7364.25",
+            "employment": "457.38"
+        },
+        "Korea": {
+            "population": "43930.46",
+            "employment": "1921.3"
+        },
+        "Canada": {
+            "population": "29764.22",
+            "employment": "2128.21"
+        },
+        "Czechia": {
+            "population": "8929.175",
+            "employment": "344.418"
+        },
+        "Colombia": {
+            "population": "34912.75",
+            "employment": "886.944"
+        },
+        "Netherlands": {
+            "population": "14125.65",
+            "employment": "1403"
+        },
+        "Euro area (20 countries)": {
+            "population": "285293.7",
+            "employment": "17495.141248"
+        },
+        "Germany": {
+            "population": "70715.42",
+            "employment": "5812"
+        },
+        "Hungary": {
+            "population": "8197.575",
+            "employment": "303.987"
+        },
+        "Italy": {
+            "population": "52052.52",
+            "employment": "1942.7"
+        },
+        "Spain": {
+            "population": "39135.07",
+            "employment": "1452.1"
+        },
+        "Iceland": {
+            "population": "240.5",
+            "employment": "21.5"
+        },
+        "Estonia": {
+            "population": "1097.825",
+            "employment": "38.92"
+        },
+        "Latvia": {
+            "population": "1611.425",
+            "employment": "48.889"
+        },
+        "Poland": {
+            "population": "30594.45",
+            "employment": "978.4"
+        },
+        "Israel": {
+            "population": "6238.783",
+            "employment": "428.854832"
+        },
+        "Norway": {
+            "population": "4328.8",
+            "employment": "583"
+        },
+        "United Kingdom": {
+            "population": "52752.25",
+            "employment": "3947.248"
+        },
+        "Denmark": {
+            "population": "4798.175",
+            "employment": "511"
+        },
+        "Finland": {
+            "population": "4597.4",
+            "employment": "413.9"
+        },
+        "Lithuania": {
+            "population": "2405.725",
+            "employment": "92.567"
+        },
+        "Portugal": {
+            "population": "8853.15",
+            "employment": "391.007"
+        },
+        "Japan": {
+            "population": "111109.2",
+            "employment": "8321"
+        },
+        "Sweden": {
+            "population": "8205.825",
+            "employment": "841"
+        },
+        "Slovenia": {
+            "population": "1756.9",
+            "employment": "63.656"
+        },
+        "Ireland": {
+            "population": "3794.6",
+            "employment": "280.221995"
+        },
+        "Mexico": {
+            "population": "90055.48",
+            "employment": "1246.6"
+        },
+        "Belgium": {
+            "population": "9271.625",
+            "employment": "621.6"
+        },
+        "New Zealand": {
+            "population": "3828.575",
+            "employment": "261.2"
+        },
+        "European Union (27 countries from 01/02/2020)": {
+            "population": "372230.2",
+            "employment": "21070.101812"
+        },
+        "Luxembourg": {
+            "population": "485.1",
+            "employment": "44.955"
+        },
+        "Greece": {
+            "population": "9176.925",
+            "employment": "251.215"
+        },
+        "Australia": {
+            "population": "19907.3",
+            "employment": "1672.875444"
+        },
+        "Switzerland": {
+            "population": "7115.8",
+            "employment": "682.545313"
+        },
+        "Costa Rica": {
+            "population": "3835.97",
+            "employment": "74.108"
+        }
+    },
+    "2005": {
+        "Latvia": {
+            "population": "1884.2",
+            "employment": "48.908"
+        },
+        "Estonia": {
+            "population": "1139.475",
+            "employment": "36.74"
+        },
+        "Austria": {
+            "population": "6781.075",
+            "employment": "346.2"
+        },
+        "Canada": {
+            "population": "25754.68",
+            "employment": "1626.29"
+        },
+        "Poland": {
+            "population": "31257.75",
+            "employment": "795.2"
+        },
+        "Netherlands": {
+            "population": "13117.2",
+            "employment": "1191"
+        },
+        "France": {
+            "population": "48551.7",
+            "employment": "3269"
+        },
+        "Hungary": {
+            "population": "8378.425",
+            "employment": "276.894"
+        },
+        "Denmark": {
+            "population": "4405.325",
+            "employment": "497"
+        },
+        "Finland": {
+            "population": "4313.95",
+            "employment": "336.6"
+        },
+        "Lithuania": {
+            "population": "2780",
+            "employment": "94.745"
+        },
+        "Japan": {
+            "population": "109962.5",
+            "employment": "5708"
+        },
+        "Sweden": {
+            "population": "7456.15",
+            "employment": "729"
+        },
+        "Slovenia": {
+            "population": "1713.575",
+            "employment": "49.488"
+        },
+        "Spain": {
+            "population": "37029.48",
+            "employment": "1103"
+        },
+        "Ireland": {
+            "population": "3293.425",
+            "employment": "189.607031"
+        },
+        "Belgium": {
+            "population": "8679",
+            "employment": "461.4"
+        },
+        "Israel": {
+            "population": "4963.35",
+            "employment": "277.775847"
+        },
+        "Norway": {
+            "population": "3306.7",
+            "employment": "462"
+        },
+        "United Kingdom": {
+            "population": "47984",
+            "employment": "3218.932"
+        },
+        "Portugal": {
+            "population": "8828",
+            "employment": "314.919"
+        },
+        "Luxembourg": {
+            "population": "364.8",
+            "employment": "24.234"
+        },
+        "Mexico": {
+            "population": "73541.81",
+            "employment": "1057.615"
+        },
+        "United States": {
+            "population": "226082.6",
+            "employment": "16912"
+        },
+        "European Union (27 countries from 01/02/2020)": {
+            "population": "361398",
+            "employment": "17091.78642"
+        },
+        "Czechia": {
+            "population": "8714",
+            "employment": "272.53"
+        },
+        "Euro area (20 countries)": {
+            "population": "272681.3",
+            "employment": "14017.508229"
+        },
+        "Germany": {
+            "population": "70069.98",
+            "employment": "4448"
+        },
+        "Greece": {
+            "population": "9332.3",
+            "employment": "215.308"
+        },
+        "Italy": {
+            "population": "49448.13",
+            "employment": "1641.2"
+        },
+        "Australia": {
+            "population": "16156.16",
+            "employment": "1061.75322"
+        },
+        "Switzerland": {
+            "population": "6209.7",
+            "employment": "467.486372"
+        },
+        "Iceland": {
+            "population": "201.625",
+            "employment": "18.2"
+        },
+        "Slovak Republic": {
+            "population": "4446.525",
+            "employment": "122.414"
+        }
+    },
+    "2018": {
+        "Estonia": {
+            "population": "1100.925",
+            "employment": "39.99"
+        },
+        "Latvia": {
+            "population": "1598.6",
+            "employment": "49.451"
+        },
+        "Austria": {
+            "population": "7396.65",
+            "employment": "465.82"
+        },
+        "Canada": {
+            "population": "30220.68",
+            "employment": "2180.955"
+        },
+        "Poland": {
+            "population": "30429.28",
+            "employment": "980.6"
+        },
+        "Israel": {
+            "population": "6363.075",
+            "employment": "443.767018"
+        },
+        "Norway": {
+            "population": "4354.525",
+            "employment": "588"
+        },
+        "Denmark": {
+            "population": "4829.55",
+            "employment": "518"
+        },
+        "Finland": {
+            "population": "4612.25",
+            "employment": "426.6"
+        },
+        "Portugal": {
+            "population": "8851.825",
+            "employment": "400.202"
+        },
+        "Lithuania": {
+            "population": "2379.85",
+            "employment": "94.294"
+        },
+        "Japan": {
+            "population": "111074.2",
+            "employment": "8515"
+        },
+        "Sweden": {
+            "population": "8263.225",
+            "employment": "853"
+        },
+        "Slovenia": {
+            "population": "1757.2",
+            "employment": "65.516"
+        },
+        "Ireland": {
+            "population": "3852.4",
+            "employment": "283.484468"
+        },
+        "Mexico": {
+            "population": "92171.81",
+            "employment": "1265.655"
+        },
+        "Belgium": {
+            "population": "9330.35",
+            "employment": "633.8"
+        },
+        "New Zealand": {
+            "population": "3910.05",
+            "employment": "277.6"
+        },
+        "European Union (27 countries from 01/02/2020)": {
+            "population": "372713.2",
+            "employment": "21412.964269"
+        },
+        "United Kingdom": {
+            "population": "53034.5",
+            "employment": "3977.971"
+        },
+        "Luxembourg": {
+            "population": "495",
+            "employment": "46.52"
+        },
+        "Switzerland": {
+            "population": "7164.55",
+            "employment": "698.202358"
+        },
+        "Costa Rica": {
+            "population": "3889.761",
+            "employment": "75.602"
+        },
+        "Slovak Republic": {
+            "population": "4593.4",
+            "employment": "136.421"
+        },
+        "United States": {
+            "population": "257790.7",
+            "employment": "21132"
+        },
+        "Korea": {
+            "population": "44182.1",
+            "employment": "2046.2"
+        },
+        "Czechia": {
+            "population": "8941.825",
+            "employment": "353.862"
+        },
+        "Colombia": {
+            "population": "35671.27",
+            "employment": "883.53"
+        },
+        "Netherlands": {
+            "population": "14232.47",
+            "employment": "1439"
+        },
+        "Euro area (20 countries)": {
+            "population": "286030.1",
+            "employment": "17793.892793"
+        },
+        "Germany": {
+            "population": "70790.2",
+            "employment": "5924"
+        },
+        "Hungary": {
+            "population": "8181.675",
+            "employment": "312.54"
+        },
+        "Greece": {
+            "population": "9140.15",
+            "employment": "259.068"
+        },
+        "Italy": {
+            "population": "52027.23",
+            "employment": "1977.4"
+        },
+        "Spain": {
+            "population": "39376.88",
+            "employment": "1496.7"
+        },
+        "Iceland": {
+            "population": "249.075",
+            "employment": "22.4"
+        },
+        "France": {
+            "population": "53395.35",
+            "employment": "3915"
+        }
+    },
+    "2021": {
+        "Slovenia": {
+            "population": "1744.15",
+            "employment": "73.201"
+        },
+        "Ireland": {
+            "population": "4023.375",
+            "employment": "307.093531"
+        },
+        "Belgium": {
+            "population": "9502.375",
+            "employment": "664.8"
+        },
+        "New Zealand": {
+            "population": "4096.275",
+            "employment": "296.7"
+        },
+        "European Union (27 countries from 01/02/2020)": {
+            "population": "373492.2",
+            "employment": "22668.886996"
+        },
+        "United Kingdom": {
+            "population": "53680",
+            "employment": "4192.273"
+        },
+        "Luxembourg": {
+            "population": "522.9",
+            "employment": "54.507"
+        },
+        "Switzerland": {
+            "population": "7325.95",
+            "employment": "738.233491"
+        },
+        "Mexico": {
+            "population": "97801.59",
+            "employment": "1321.559"
+        },
+        "Slovak Republic": {
+            "population": "4534.1",
+            "employment": "143.36"
+        },
+        "United States": {
+            "population": "261445.2",
+            "employment": "21203"
+        },
+        "Korea": {
+            "population": "45079.98",
+            "employment": "2534"
+        },
+        "Czechia": {
+            "population": "8974.525",
+            "employment": "376.92"
+        },
+        "Netherlands": {
+            "population": "14469.1",
+            "employment": "1577"
+        },
+        "Euro area (20 countries)": {
+            "population": "290999.7",
+            "employment": "18813.696451"
+        },
+        "Germany": {
+            "population": "71052.58",
+            "employment": "6273"
+        },
+        "Greece": {
+            "population": "9065.35",
+            "employment": "283.3"
+        },
+        "Italy": {
+            "population": "51305.68",
+            "employment": "2018.9"
+        },
+        "Costa Rica": {
+            "population": "4048.866",
+            "employment": "82.554"
+        },
+        "Spain": {
+            "population": "40164.35",
+            "employment": "1656.9"
+        },
+        "Iceland": {
+            "population": "285.175",
+            "employment": "25.9"
+        },
+        "France": {
+            "population": "53885.88",
+            "employment": "4039"
+        },
+        "Latvia": {
+            "population": "1562.15",
+            "employment": "52.953"
+        },
+        "Estonia": {
+            "population": "1094.9",
+            "employment": "41.38"
+        },
+        "Austria": {
+            "population": "7504.65",
+            "employment": "493.9"
+        },
+        "Canada": {
+            "population": "31326.16",
+            "employment": "2389.225"
+        },
+        "Colombia": {
+            "population": "38432.47",
+            "employment": "936.745"
+        },
+        "Poland": {
+            "population": "30121.32",
+            "employment": "1097.6"
+        },
+        "Israel": {
+            "population": "6738.133",
+            "employment": "474.916471"
+        },
+        "Hungary": {
+            "population": "8124.5",
+            "employment": "323.813"
+        },
+        "Norway": {
+            "population": "4445.9",
+            "employment": "604"
+        },
+        "Denmark": {
+            "population": "4897.65",
+            "employment": "556"
+        },
+        "Finland": {
+            "population": "4610.825",
+            "employment": "453"
+        },
+        "Lithuania": {
+            "population": "2365.4",
+            "employment": "100.231"
+        },
+        "Portugal": {
+            "population": "8911",
+            "employment": "430.949"
+        },
+        "Japan": {
+            "population": "110785",
+            "employment": "9008"
+        },
+        "Sweden": {
+            "population": "8412",
+            "employment": "859"
+        }
+    },
+    "2012": {
+        "United Kingdom": {
+            "population": "50975",
+            "employment": "3710.845"
+        },
+        "Denmark": {
+            "population": "4603.475",
+            "employment": "507"
+        },
+        "Lithuania": {
+            "population": "2550.75",
+            "employment": "85.478"
+        },
+        "Portugal": {
+            "population": "8947.5",
+            "employment": "349.58"
+        },
+        "Japan": {
+            "population": "111076.7",
+            "employment": "7313"
+        },
+        "Ireland": {
+            "population": "3608.25",
+            "employment": "256.80147"
+        },
+        "Mexico": {
+            "population": "84772.31",
+            "employment": "1180.502"
+        },
+        "Norway": {
+            "population": "3736.975",
+            "employment": "545"
+        },
+        "Belgium": {
+            "population": "9188.775",
+            "employment": "558.5"
+        },
+        "European Union (27 countries from 01/02/2020)": {
+            "population": "367132.1",
+            "employment": "19348.377053"
+        },
+        "Euro area (20 countries)": {
+            "population": "279452",
+            "employment": "16072.907857"
+        },
+        "Germany": {
+            "population": "68840.98",
+            "employment": "5086"
+        },
+        "Luxembourg": {
+            "population": "423.6",
+            "employment": "36.181"
+        },
+        "Greece": {
+            "population": "9344.8",
+            "employment": "239.261"
+        },
+        "Australia": {
+            "population": "18382.15",
+            "employment": "1372.07321"
+        },
+        "Switzerland": {
+            "population": "6747.3",
+            "employment": "577.388923"
+        },
+        "Costa Rica": {
+            "population": "3526.173",
+            "employment": "75.097"
+        },
+        "Slovak Republic": {
+            "population": "4571.75",
+            "employment": "124.625"
+        },
+        "United States": {
+            "population": "243284.3",
+            "employment": "19407"
+        },
+        "France": {
+            "population": "50438.27",
+            "employment": "3731"
+        },
+        "Estonia": {
+            "population": "1114.65",
+            "employment": "34.82"
+        },
+        "Austria": {
+            "population": "7065.75",
+            "employment": "414.7"
+        },
+        "Canada": {
+            "population": "28230.9",
+            "employment": "1920.395"
+        },
+        "Czechia": {
+            "population": "8964.525",
+            "employment": "314.322"
+        },
+        "Poland": {
+            "population": "31037.68",
+            "employment": "903.8"
+        },
+        "Netherlands": {
+            "population": "13631.6",
+            "employment": "1436"
+        },
+        "Hungary": {
+            "population": "8324.4",
+            "employment": "270.666"
+        },
+        "Finland": {
+            "population": "4502.5",
+            "employment": "392.4"
+        },
+        "Italy": {
+            "population": "51457.25",
+            "employment": "1797.2"
+        },
+        "Sweden": {
+            "population": "7917.875",
+            "employment": "748"
+        },
+        "Slovenia": {
+            "population": "1761",
+            "employment": "57.453"
+        },
+        "Spain": {
+            "population": "39238.93",
+            "employment": "1311"
+        },
+        "Iceland": {
+            "population": "223.6",
+            "employment": "19.8"
+        },
+        "Latvia": {
+            "population": "1725.7",
+            "employment": "48.778"
+        },
+        "Israel": {
+            "population": "5671.958",
+            "employment": "354.290205"
+        }
+    },
+    "1994": {
+        "Australia": {
+            "population": "13902.88",
+            "employment": "734.587402"
+        },
+        "Japan": {
+            "population": "104357.5",
+            "employment": "3503"
+        }
+    },
+    "2007": {
+        "Euro area (20 countries)": {
+            "population": "276260.4",
+            "employment": "14580.995254"
+        },
+        "Germany": {
+            "population": "70313",
+            "employment": "4518"
+        },
+        "Greece": {
+            "population": "9412.325",
+            "employment": "236.083"
+        },
+        "Italy": {
+            "population": "49998.07",
+            "employment": "1660.5"
+        },
+        "Australia": {
+            "population": "16742.1",
+            "employment": "1101.138474"
+        },
+        "Switzerland": {
+            "population": "6326.1",
+            "employment": "485.468134"
+        },
+        "Spain": {
+            "population": "38284.55",
+            "employment": "1220.6"
+        },
+        "Iceland": {
+            "population": "217.275",
+            "employment": "18.9"
+        },
+        "Slovak Republic": {
+            "population": "4508.775",
+            "employment": "126.76"
+        },
+        "France": {
+            "population": "49235.88",
+            "employment": "3436"
+        },
+        "Latvia": {
+            "population": "1867.9",
+            "employment": "48.916"
+        },
+        "Estonia": {
+            "population": "1138.225",
+            "employment": "34.13"
+        },
+        "Austria": {
+            "population": "6880.5",
+            "employment": "365.15"
+        },
+        "Canada": {
+            "population": "26469.17",
+            "employment": "1753.89"
+        },
+        "Poland": {
+            "population": "31392.05",
+            "employment": "835.2"
+        },
+        "Netherlands": {
+            "population": "13233.63",
+            "employment": "1261"
+        },
+        "Hungary": {
+            "population": "8373.875",
+            "employment": "269.977"
+        },
+        "Denmark": {
+            "population": "4435.125",
+            "employment": "507"
+        },
+        "Finland": {
+            "population": "4368.325",
+            "employment": "348.5"
+        },
+        "Portugal": {
+            "population": "8893.025",
+            "employment": "319.798"
+        },
+        "Lithuania": {
+            "population": "2729.3",
+            "employment": "94.502"
+        },
+        "Japan": {
+            "population": "110594.2",
+            "employment": "6018"
+        },
+        "Sweden": {
+            "population": "7597.8",
+            "employment": "741"
+        },
+        "Slovenia": {
+            "population": "1733.85",
+            "employment": "51.018"
+        },
+        "Ireland": {
+            "population": "3508.775",
+            "employment": "217.727897"
+        },
+        "Belgium": {
+            "population": "8831.9",
+            "employment": "483.5"
+        },
+        "European Union (27 countries from 01/02/2020)": {
+            "population": "365429",
+            "employment": "17753.603277"
+        },
+        "Israel": {
+            "population": "5142.4",
+            "employment": "279.230092"
+        },
+        "Norway": {
+            "population": "3436.75",
+            "employment": "489"
+        },
+        "United Kingdom": {
+            "population": "48901.75",
+            "employment": "3302.988"
+        },
+        "Luxembourg": {
+            "population": "378.125",
+            "employment": "26.883"
+        },
+        "Mexico": {
+            "population": "76362.64",
+            "employment": "1093.084"
+        },
+        "United States": {
+            "population": "231867",
+            "employment": "17833"
+        },
+        "Czechia": {
+            "population": "8845.05",
+            "employment": "283.744"
+        }
+    },
+    "2004": {
+        "Belgium": {
+            "population": "8598.375",
+            "employment": "448.5"
+        },
+        "United Kingdom": {
+            "population": "47521.25",
+            "employment": "3128.067"
+        },
+        "Luxembourg": {
+            "population": "361",
+            "employment": "22.867"
+        },
+        "Slovak Republic": {
+            "population": "4409.825",
+            "employment": "131.569"
+        },
+        "Czechia": {
+            "population": "8657.425",
+            "employment": "264.849"
+        },
+        "Greece": {
+            "population": "9285.325",
+            "employment": "218.091"
+        },
+        "Italy": {
+            "population": "49022.68",
+            "employment": "1616.8"
+        },
+        "Australia": {
+            "population": "15921.02",
+            "employment": "977.124788"
+        },
+        "United States": {
+            "population": "223356.8",
+            "employment": "16661"
+        },
+        "Spain": {
+            "population": "36371.5",
+            "employment": "1040.7"
+        },
+        "Iceland": {
+            "population": "199.2",
+            "employment": "18.2"
+        },
+        "France": {
+            "population": "48129.7",
+            "employment": "3182"
+        },
+        "Latvia": {
+            "population": "1895.65",
+            "employment": "47.295"
+        },
+        "Estonia": {
+            "population": "1137.65",
+            "employment": "37.13"
+        },
+        "Austria": {
+            "population": "6715.375",
+            "employment": "338.48"
+        },
+        "Canada": {
+            "population": "25408.07",
+            "employment": "1619.965"
+        },
+        "Poland": {
+            "population": "31122.72",
+            "employment": "796.2"
+        },
+        "Israel": {
+            "population": "4876",
+            "employment": "267.317263"
+        },
+        "Netherlands": {
+            "population": "13099.6",
+            "employment": "1152"
+        },
+        "Hungary": {
+            "population": "8361",
+            "employment": "284.287"
+        },
+        "Norway": {
+            "population": "3273.35",
+            "employment": "457"
+        },
+        "Denmark": {
+            "population": "4388.575",
+            "employment": "493"
+        },
+        "Finland": {
+            "population": "4287.05",
+            "employment": "330"
+        },
+        "Portugal": {
+            "population": "8801.3",
+            "employment": "308.395"
+        },
+        "Japan": {
+            "population": "109775.8",
+            "employment": "5406"
+        },
+        "Sweden": {
+            "population": "7393.7",
+            "employment": "731"
+        },
+        "Slovenia": {
+            "population": "1707.6",
+            "employment": "48.156"
+        },
+        "Ireland": {
+            "population": "3214.05",
+            "employment": "179.420088"
+        }
+    },
+    "2011": {
+        "Luxembourg": {
+            "population": "410.425",
+            "employment": "33.934"
+        },
+        "Switzerland": {
+            "population": "6665.6",
+            "employment": "553.628567"
+        },
+        "Mexico": {
+            "population": "83187.11",
+            "employment": "1164.293"
+        },
+        "Costa Rica": {
+            "population": "3458.942",
+            "employment": "73.763"
+        },
+        "Slovak Republic": {
+            "population": "4560.9",
+            "employment": "124.994"
+        },
+        "United States": {
+            "population": "239617.5",
+            "employment": "18903"
+        },
+        "Czechia": {
+            "population": "8965.025",
+            "employment": "309.353"
+        },
+        "Netherlands": {
+            "population": "13520.8",
+            "employment": "1420"
+        },
+        "Euro area (20 countries)": {
+            "population": "278541.6",
+            "employment": "15877.091339"
+        },
+        "Germany": {
+            "population": "68540.42",
+            "employment": "4965"
+        },
+        "Hungary": {
+            "population": "8337.075",
+            "employment": "276.4"
+        },
+        "Greece": {
+            "population": "9372.85",
+            "employment": "238.196"
+        },
+        "Italy": {
+            "population": "51221.07",
+            "employment": "1776.7"
+        },
+        "Australia": {
+            "population": "18058.92",
+            "employment": "1331.55239"
+        },
+        "Spain": {
+            "population": "39266.95",
+            "employment": "1353.3"
+        },
+        "Iceland": {
+            "population": "223.75",
+            "employment": "19.6"
+        },
+        "France": {
+            "population": "50207.4",
+            "employment": "3691"
+        },
+        "Latvia": {
+            "population": "1756.9",
+            "employment": "46.745"
+        },
+        "Estonia": {
+            "population": "1122.275",
+            "employment": "34.12"
+        },
+        "Austria": {
+            "population": "7019.825",
+            "employment": "407.28"
+        },
+        "Canada": {
+            "population": "27904.93",
+            "employment": "1900.255"
+        },
+        "Poland": {
+            "population": "31002.53",
+            "employment": "888.5"
+        },
+        "Israel": {
+            "population": "5584.85",
+            "employment": "320.906178"
+        },
+        "Norway": {
+            "population": "3672.775",
+            "employment": "536"
+        },
+        "Denmark": {
+            "population": "4573.6",
+            "employment": "513"
+        },
+        "Finland": {
+            "population": "4477.6",
+            "employment": "382"
+        },
+        "Portugal": {
+            "population": "8970.475",
+            "employment": "350.157"
+        },
+        "Lithuania": {
+            "population": "2581.675",
+            "employment": "87.363"
+        },
+        "Japan": {
+            "population": "111132.5",
+            "employment": "7020"
+        },
+        "Sweden": {
+            "population": "7876.7",
+            "employment": "751"
+        },
+        "Slovenia": {
+            "population": "1759.8",
+            "employment": "55.898"
+        },
+        "Ireland": {
+            "population": "3600.25",
+            "employment": "254.564022"
+        },
+        "Belgium": {
+            "population": "9127.975",
+            "employment": "545.9"
+        },
+        "European Union (27 countries from 01/02/2020)": {
+            "population": "366269.9",
+            "employment": "19162.432154"
+        },
+        "United Kingdom": {
+            "population": "50647",
+            "employment": "3689.675"
+        }
+    },
+    "2014": {
+        "Belgium": {
+            "population": "9282.8",
+            "employment": "577.8"
+        },
+        "New Zealand": {
+            "population": "3553.5",
+            "employment": "250.7"
+        },
+        "European Union (27 countries from 01/02/2020)": {
+            "population": "370130.1",
+            "employment": "19918.951827"
+        },
+        "United Kingdom": {
+            "population": "51686.75",
+            "employment": "3837.573"
+        },
+        "Luxembourg": {
+            "population": "434.225",
+            "employment": "40.276"
+        },
+        "Switzerland": {
+            "population": "6914.55",
+            "employment": "610.153528"
+        },
+        "Mexico": {
+            "population": "86867.26",
+            "employment": "1203.04"
+        },
+        "Costa Rica": {
+            "population": "3652.93",
+            "employment": "83.152"
+        },
+        "Slovak Republic": {
+            "population": "4586",
+            "employment": "128.973"
+        },
+        "United States": {
+            "population": "247946.6",
+            "employment": "19576"
+        },
+        "Korea": {
+            "population": "42795.1",
+            "employment": "1708.5"
+        },
+        "Czechia": {
+            "population": "8932.575",
+            "employment": "323.946"
+        },
+        "Netherlands": {
+            "population": "13815.3",
+            "employment": "1397"
+        },
+        "Euro area (20 countries)": {
+            "population": "282577.5",
+            "employment": "16531.912221"
+        },
+        "Germany": {
+            "population": "69463.33",
+            "employment": "5317"
+        },
+        "Hungary": {
+            "population": "8278.875",
+            "employment": "292.352"
+        },
+        "Greece": {
+            "population": "9282.1",
+            "employment": "249.393"
+        },
+        "Italy": {
+            "population": "52009.1",
+            "employment": "1854"
+        },
+        "Australia": {
+            "population": "18989.38",
+            "employment": "1478.711228"
+        },
+        "Spain": {
+            "population": "38953.27",
+            "employment": "1331.1"
+        },
+        "Iceland": {
+            "population": "227.325",
+            "employment": "20.6"
+        },
+        "France": {
+            "population": "52401.35",
+            "employment": "3835"
+        },
+        "Estonia": {
+            "population": "1103.425",
+            "employment": "37.65"
+        },
+        "Latvia": {
+            "population": "1674.05",
+            "employment": "46.596"
+        },
+        "Austria": {
+            "population": "7179.525",
+            "employment": "425.86"
+        },
+        "Canada": {
+            "population": "28843.71",
+            "employment": "1987.3"
+        },
+        "Poland": {
+            "population": "30984.32",
+            "employment": "933.6"
+        },
+        "Israel": {
+            "population": "5884.75",
+            "employment": "395.606145"
+        },
+        "Norway": {
+            "population": "4196.125",
+            "employment": "562"
+        },
+        "Denmark": {
+            "population": "4672.2",
+            "employment": "508"
+        },
+        "Finland": {
+            "population": "4545.575",
+            "employment": "397.2"
+        },
+        "Portugal": {
+            "population": "8883.45",
+            "employment": "358.629"
+        },
+        "Lithuania": {
+            "population": "2506.525",
+            "employment": "84.683"
+        },
+        "Japan": {
+            "population": "111030.8",
+            "employment": "7738"
+        },
+        "Sweden": {
+            "population": "8008.625",
+            "employment": "777"
+        },
+        "Slovenia": {
+            "population": "1759.55",
+            "employment": "58.148"
+        },
+        "Ireland": {
+            "population": "3653.65",
+            "employment": "263.818181"
+        }
+    },
+    "2006": {
+        "European Union (27 countries from 01/02/2020)": {
+            "population": "363477.2",
+            "employment": "17467.099649"
+        },
+        "Norway": {
+            "population": "3389.8",
+            "employment": "478"
+        },
+        "United Kingdom": {
+            "population": "48426.25",
+            "employment": "3305.633"
+        },
+        "Luxembourg": {
+            "population": "372.8",
+            "employment": "25.569"
+        },
+        "Mexico": {
+            "population": "74806.09",
+            "employment": "1059.751"
+        },
+        "Slovak Republic": {
+            "population": "4493.55",
+            "employment": "121.732"
+        },
+        "United States": {
+            "population": "228814.7",
+            "employment": "17416"
+        },
+        "Czechia": {
+            "population": "8773.425",
+            "employment": "278.575"
+        },
+        "Euro area (20 countries)": {
+            "population": "274488.1",
+            "employment": "14297.136077"
+        },
+        "Germany": {
+            "population": "70250.63",
+            "employment": "4467"
+        },
+        "Greece": {
+            "population": "9374.1",
+            "employment": "221.908"
+        },
+        "Italy": {
+            "population": "49742.07",
+            "employment": "1651.5"
+        },
+        "Australia": {
+            "population": "16419.6",
+            "employment": "1075.870565"
+        },
+        "Switzerland": {
+            "population": "6265.6",
+            "employment": "477.741774"
+        },
+        "Spain": {
+            "population": "37587.15",
+            "employment": "1177.7"
+        },
+        "Iceland": {
+            "population": "209.45",
+            "employment": "18.6"
+        },
+        "France": {
+            "population": "48922.18",
+            "employment": "3353"
+        },
+        "Estonia": {
+            "population": "1142.325",
+            "employment": "35.58"
+        },
+        "Latvia": {
+            "population": "1876.4",
+            "employment": "49.221"
+        },
+        "Austria": {
+            "population": "6834",
+            "employment": "356.84"
+        },
+        "Canada": {
+            "population": "26121.75",
+            "employment": "1668.245"
+        },
+        "Poland": {
+            "population": "31365.18",
+            "employment": "839.5"
+        },
+        "Israel": {
+            "population": "5053.125",
+            "employment": "275.055705"
+        },
+        "Netherlands": {
+            "population": "13172.83",
+            "employment": "1225"
+        },
+        "Hungary": {
+            "population": "8383.45",
+            "employment": "282.076"
+        },
+        "Denmark": {
+            "population": "4427.475",
+            "employment": "504"
+        },
+        "Finland": {
+            "population": "4338.65",
+            "employment": "342.5"
+        },
+        "Portugal": {
+            "population": "8859.825",
+            "employment": "317.086"
+        },
+        "Lithuania": {
+            "population": "2744.9",
+            "employment": "98.04"
+        },
+        "Japan": {
+            "population": "110219.2",
+            "employment": "5901"
+        },
+        "Sweden": {
+            "population": "7523.4",
+            "employment": "728"
+        },
+        "Slovenia": {
+            "population": "1723.625",
+            "employment": "50.219"
+        },
+        "Ireland": {
+            "population": "3384.45",
+            "employment": "204.385986"
+        },
+        "Belgium": {
+            "population": "8749.35",
+            "employment": "472.1"
+        }
+    },
+    "2000": {
+        "Ireland": {
+            "population": "2971.825",
+            "employment": "132.856337"
+        },
+        "Belgium": {
+            "population": "8434.3",
+            "employment": "400.9"
+        },
+        "Greece": {
+            "population": "8839.875",
+            "employment": "180.829"
+        },
+        "Australia": {
+            "population": "15043.99",
+            "employment": "892.513976"
+        },
+        "Slovak Republic": {
+            "population": "4307.9",
+            "employment": "138.907"
+        },
+        "United States": {
+            "population": "212576.8",
+            "employment": "14933"
+        },
+        "Austria": {
+            "population": "6584.25",
+            "employment": "301.24"
+        },
+        "Canada": {
+            "population": "24089.7",
+            "employment": "1479.745"
+        },
+        "Czechia": {
+            "population": "8536.175",
+            "employment": "255.917"
+        },
+        "Netherlands": {
+            "population": "12730.78",
+            "employment": "1006"
+        },
+        "Hungary": {
+            "population": "8221.625",
+            "employment": "260.349"
+        },
+        "Italy": {
+            "population": "48772.2",
+            "employment": "1498.1"
+        },
+        "Slovenia": {
+            "population": "1674.85",
+            "employment": "44.013"
+        },
+        "Spain": {
+            "population": "34004.05",
+            "employment": "876.3"
+        },
+        "Estonia": {
+            "population": "1153.925",
+            "employment": "30.05"
+        },
+        "Poland": {
+            "population": "30596.9",
+            "employment": "887.5"
+        },
+        "Israel": {
+            "population": "4486.6",
+            "employment": "220.444091"
+        },
+        "Norway": {
+            "population": "3187.375",
+            "employment": "415"
+        },
+        "United Kingdom": {
+            "population": "46194.75",
+            "employment": "2783.571"
+        },
+        "Denmark": {
+            "population": "4340.675",
+            "employment": "477"
+        },
+        "Finland": {
+            "population": "4216.15",
+            "employment": "303.9"
+        },
+        "Portugal": {
+            "population": "8595.925",
+            "employment": "284.304"
+        },
+        "Japan": {
+            "population": "108230.8",
+            "employment": "4515"
+        }
+    },
+    "2022": {
+        "Hungary": {
+            "population": "8096.025",
+            "employment": "321.198"
+        },
+        "Denmark": {
+            "population": "4944.5",
+            "employment": "565"
+        },
+        "Finland": {
+            "population": "4630.175",
+            "employment": "468.6"
+        },
+        "Sweden": {
+            "population": "8464",
+            "employment": "190"
+        },
+        "Slovenia": {
+            "population": "1742.925",
+            "employment": "75.514"
+        },
+        "Spain": {
+            "population": "40449.02",
+            "employment": "1733.6"
+        },
+        "Iceland": {
+            "population": "293.125",
+            "employment": "26.4"
+        },
+        "New Zealand": {
+            "population": "4112.6",
+            "employment": "294.6"
+        },
+        "Israel": {
+            "population": "6877.8",
+            "employment": "505.629989"
+        },
+        "Norway": {
+            "population": "4471.15",
+            "employment": "609"
+        },
+        "United Kingdom": {
+            "population": "54150.5",
+            "employment": "4162.472"
+        },
+        "Portugal": {
+            "population": "8909.825",
+            "employment": "436.367"
+        },
+        "Lithuania": {
+            "population": "2402.4",
+            "employment": "109.603"
+        },
+        "Japan": {
+            "population": "110299.2",
+            "employment": "9183"
+        },
+        "Luxembourg": {
+            "population": "531.175",
+            "employment": "54.893"
+        },
+        "Mexico": {
+            "population": "99171.59",
+            "employment": "1332.935"
+        },
+        "Belgium": {
+            "population": "9591.95",
+            "employment": "674.1"
+        },
+        "United States": {
+            "population": "263973.5",
+            "employment": "21517"
+        },
+        "European Union (27 countries from 01/02/2020)": {
+            "population": "374617.1",
+            "employment": "22711.106928"
+        },
+        "Korea": {
+            "population": "45260.13",
+            "employment": "2714.2"
+        },
+        "Czechia": {
+            "population": "8832.075",
+            "employment": "385.529"
+        },
+        "Euro area (20 countries)": {
+            "population": "292777.3",
+            "employment": "19139.40661"
+        },
+        "Germany": {
+            "population": "71670",
+            "employment": "6360"
+        },
+        "Greece": {
+            "population": "9050.15",
+            "employment": "288.496"
+        },
+        "Italy": {
+            "population": "51174.6",
+            "employment": "2028.9"
+        },
+        "Switzerland": {
+            "population": "7389.3",
+            "employment": "747.852041"
+        },
+        "Costa Rica": {
+            "population": "4100.434",
+            "employment": "86.148"
+        },
+        "Slovak Republic": {
+            "population": "4507.9",
+            "employment": "148.159"
+        },
+        "France": {
+            "population": "54427.5",
+            "employment": "4057"
+        },
+        "Estonia": {
+            "population": "1098.4",
+            "employment": "45.89"
+        },
+        "Latvia": {
+            "population": "1564.1",
+            "employment": "54.53"
+        },
+        "Austria": {
+            "population": "7578.575",
+            "employment": "503.07"
+        },
+        "Canada": {
+            "population": "31772.06",
+            "employment": "2480.145"
+        },
+        "Colombia": {
+            "population": "38996.57",
+            "employment": "966.28"
+        },
+        "Poland": {
+            "population": "30013.6",
+            "employment": "1128.6"
+        },
+        "Netherlands": {
+            "population": "14629.47",
+            "employment": "1616"
+        }
+    },
+    "2016": {
+        "European Union (27 countries from 01/02/2020)": {
+            "population": "371860.3",
+            "employment": "20712.5884"
+        },
+        "United Kingdom": {
+            "population": "52466.5",
+            "employment": "3883.864"
+        },
+        "Luxembourg": {
+            "population": "471.9",
+            "employment": "42.938"
+        },
+        "Switzerland": {
+            "population": "7062.375",
+            "employment": "666.062978"
+        },
+        "Costa Rica": {
+            "population": "3778.42",
+            "employment": "72.738"
+        },
+        "Slovak Republic": {
+            "population": "4594.2",
+            "employment": "134.583"
+        },
+        "United States": {
+            "population": "253537.5",
+            "employment": "20589"
+        },
+        "Korea": {
+            "population": "43605.75",
+            "employment": "1860.8"
+        },
+        "Czechia": {
+            "population": "8928.7",
+            "employment": "335.081"
+        },
+        "Colombia": {
+            "population": "34316.77",
+            "employment": "860.996"
+        },
+        "Netherlands": {
+            "population": "13989.67",
+            "employment": "1376"
+        },
+        "Euro area (20 countries)": {
+            "population": "284707.5",
+            "employment": "17183.405048"
+        },
+        "Germany": {
+            "population": "70550.9",
+            "employment": "5681"
+        },
+        "Hungary": {
+            "population": "8234.4",
+            "employment": "305.168"
+        },
+        "Greece": {
+            "population": "9212.8",
+            "employment": "252.885"
+        },
+        "Italy": {
+            "population": "52058.45",
+            "employment": "1920.6"
+        },
+        "Australia": {
+            "population": "19574.5",
+            "employment": "1632.661236"
+        },
+        "Spain": {
+            "population": "39002.7",
+            "employment": "1401.9"
+        },
+        "Iceland": {
+            "population": "234.25",
+            "employment": "20.9"
+        },
+        "France": {
+            "population": "52942.1",
+            "employment": "3890"
+        },
+        "Latvia": {
+            "population": "1636.25",
+            "employment": "48.219"
+        },
+        "Estonia": {
+            "population": "1099.7",
+            "employment": "38.4"
+        },
+        "Austria": {
+            "population": "7336.175",
+            "employment": "446.34"
+        },
+        "Canada": {
+            "population": "29385.97",
+            "employment": "2088.88"
+        },
+        "Poland": {
+            "population": "30702.75",
+            "employment": "964.8"
+        },
+        "Israel": {
+            "population": "6119.908",
+            "employment": "417.908856"
+        },
+        "Norway": {
+            "population": "4289.775",
+            "employment": "578"
+        },
+        "Denmark": {
+            "population": "4762.325",
+            "employment": "506"
+        },
+        "Finland": {
+            "population": "4581.05",
+            "employment": "407.8"
+        },
+        "Lithuania": {
+            "population": "2449.075",
+            "employment": "92.151"
+        },
+        "Portugal": {
+            "population": "8858.675",
+            "employment": "378.949"
+        },
+        "Japan": {
+            "population": "111088.3",
+            "employment": "8264"
+        },
+        "Sweden": {
+            "population": "8125.775",
+            "employment": "843"
+        },
+        "Slovenia": {
+            "population": "1757.35",
+            "employment": "61.681"
+        },
+        "Ireland": {
+            "population": "3742.4",
+            "employment": "273.462503"
+        },
+        "Mexico": {
+            "population": "89927.76",
+            "employment": "1235.794"
+        },
+        "Belgium": {
+            "population": "9369.275",
+            "employment": "605.2"
+        },
+        "New Zealand": {
+            "population": "3740.9",
+            "employment": "253.9"
+        }
+    },
+    "2002": {
+        "Belgium": {
+            "population": "8504.5",
+            "employment": "426.5"
+        },
+        "Greece": {
+            "population": "9188.375",
+            "employment": "186.154"
+        },
+        "Australia": {
+            "population": "15490.29",
+            "employment": "910.039687"
+        },
+        "Slovak Republic": {
+            "population": "4347.775",
+            "employment": "140.409"
+        },
+        "United States": {
+            "population": "217569.6",
+            "employment": "15901"
+        },
+        "Austria": {
+            "population": "6556.725",
+            "employment": "321.3"
+        },
+        "Canada": {
+            "population": "24768.57",
+            "employment": "1556.605"
+        },
+        "Czechia": {
+            "population": "8565.2",
+            "employment": "266.324"
+        },
+        "Netherlands": {
+            "population": "12944.9",
+            "employment": "1105"
+        },
+        "Hungary": {
+            "population": "8377.1",
+            "employment": "257.43"
+        },
+        "Italy": {
+            "population": "49110.75",
+            "employment": "1558.5"
+        },
+        "Spain": {
+            "population": "35175.43",
+            "employment": "920.3"
+        },
+        "Latvia": {
+            "population": "1903.05",
+            "employment": "48.45"
+        },
+        "Estonia": {
+            "population": "1142.325",
+            "employment": "33.59"
+        },
+        "Poland": {
+            "population": "31040.35",
+            "employment": "807.3"
+        },
+        "Israel": {
+            "population": "4706.175",
+            "employment": "243.888403"
+        },
+        "Norway": {
+            "population": "3223.45",
+            "employment": "442"
+        },
+        "United Kingdom": {
+            "population": "46821",
+            "employment": "2935.512"
+        },
+        "Denmark": {
+            "population": "4356.65",
+            "employment": "491"
+        },
+        "Finland": {
+            "population": "4250.85",
+            "employment": "321"
+        },
+        "Portugal": {
+            "population": "8732.75",
+            "employment": "301.958"
+        },
+        "Japan": {
+            "population": "109179.2",
+            "employment": "4959"
+        },
+        "Sweden": {
+            "population": "7305.825",
+            "employment": "730"
+        },
+        "Slovenia": {
+            "population": "1690.25",
+            "employment": "46.028"
+        },
+        "Ireland": {
+            "population": "3097.85",
+            "employment": "159.231293"
+        }
+    },
+    "2010": {
+        "United Kingdom": {
+            "population": "50212.5",
+            "employment": "3642.404"
+        },
+        "Luxembourg": {
+            "population": "400.15",
+            "employment": "31.969"
+        },
+        "Mexico": {
+            "population": "81635.95",
+            "employment": "1148.693"
+        },
+        "Slovak Republic": {
+            "population": "4588",
+            "employment": "123.295"
+        },
+        "United States": {
+            "population": "237829.3",
+            "employment": "18908"
+        },
+        "Czechia": {
+            "population": "9015.4",
+            "employment": "299.371"
+        },
+        "Euro area (20 countries)": {
+            "population": "278198.4",
+            "employment": "15590.395975"
+        },
+        "Germany": {
+            "population": "68786.4",
+            "employment": "4875"
+        },
+        "Greece": {
+            "population": "9399.4",
+            "employment": "239.857"
+        },
+        "Italy": {
+            "population": "50995.8",
+            "employment": "1740"
+        },
+        "Australia": {
+            "population": "17782.72",
+            "employment": "1266.93091"
+        },
+        "Switzerland": {
+            "population": "6597.325",
+            "employment": "528.621356"
+        },
+        "Spain": {
+            "population": "39195.65",
+            "employment": "1327.4"
+        },
+        "Iceland": {
+            "population": "223.1",
+            "employment": "20.1"
+        },
+        "France": {
+            "population": "49963.18",
+            "employment": "3624"
+        },
+        "Latvia": {
+            "population": "1794.2",
+            "employment": "45.244"
+        },
+        "Estonia": {
+            "population": "1127.125",
+            "employment": "33.8"
+        },
+        "Austria": {
+            "population": "6987.375",
+            "employment": "400.25"
+        },
+        "Canada": {
+            "population": "27576.17",
+            "employment": "1866.81"
+        },
+        "Poland": {
+            "population": "30955.03",
+            "employment": "900.1"
+        },
+        "Israel": {
+            "population": "5488.575",
+            "employment": "314.61987"
+        },
+        "Netherlands": {
+            "population": "13456.65",
+            "employment": "1394"
+        },
+        "Hungary": {
+            "population": "8346.275",
+            "employment": "265.258"
+        },
+        "Norway": {
+            "population": "3610.25",
+            "employment": "523"
+        },
+        "Denmark": {
+            "population": "4543.325",
+            "employment": "523"
+        },
+        "Finland": {
+            "population": "4456.15",
+            "employment": "372"
+        },
+        "Lithuania": {
+            "population": "2671.9",
+            "employment": "87.619"
+        },
+        "Portugal": {
+            "population": "8965.425",
+            "employment": "343.673"
+        },
+        "Japan": {
+            "population": "111047.5",
+            "employment": "6799"
+        },
+        "Sweden": {
+            "population": "7821.2",
+            "employment": "736"
+        },
+        "Slovenia": {
+            "population": "1759.95",
+            "employment": "54.798"
+        },
+        "Ireland": {
+            "population": "3598.775",
+            "employment": "251.998342"
+        },
+        "Belgium": {
+            "population": "9052.35",
+            "employment": "529"
+        },
+        "European Union (27 countries from 01/02/2020)": {
+            "population": "366002.8",
+            "employment": "18856.337181"
+        }
+    },
+    "2009": {
+        "Portugal": {
+            "population": "8941.175",
+            "employment": "340.864"
+        },
+        "Japan": {
+            "population": "110960",
+            "employment": "6460"
+        },
+        "Luxembourg": {
+            "population": "393.525",
+            "employment": "29.761"
+        },
+        "Mexico": {
+            "population": "80156.81",
+            "employment": "1120.959"
+        },
+        "United States": {
+            "population": "235801",
+            "employment": "18631"
+        },
+        "European Union (27 countries from 01/02/2020)": {
+            "population": "368411.6",
+            "employment": "18523.78043"
+        },
+        "Czechia": {
+            "population": "9009.35",
+            "employment": "301.079"
+        },
+        "Euro area (20 countries)": {
+            "population": "278863.2",
+            "employment": "15248.863478"
+        },
+        "Germany": {
+            "population": "70210.23",
+            "employment": "4755"
+        },
+        "Greece": {
+            "population": "9431.1",
+            "employment": "231.592"
+        },
+        "Italy": {
+            "population": "50756.25",
+            "employment": "1723.5"
+        },
+        "Australia": {
+            "population": "17486.79",
+            "employment": "1210.900315"
+        },
+        "Switzerland": {
+            "population": "6523.1",
+            "employment": "517.543437"
+        },
+        "Slovak Republic": {
+            "population": "4568.85",
+            "employment": "121.97"
+        },
+        "France": {
+            "population": "49718.98",
+            "employment": "3565"
+        },
+        "Latvia": {
+            "population": "1831.7",
+            "employment": "48.679"
+        },
+        "Estonia": {
+            "population": "1131.35",
+            "employment": "32.49"
+        },
+        "Austria": {
+            "population": "6956.9",
+            "employment": "386.71"
+        },
+        "Canada": {
+            "population": "27207.39",
+            "employment": "1829.985"
+        },
+        "Poland": {
+            "population": "31460.38",
+            "employment": "878.5"
+        },
+        "Netherlands": {
+            "population": "13393.15",
+            "employment": "1341"
+        },
+        "Hungary": {
+            "population": "8355.325",
+            "employment": "287.375"
+        },
+        "Denmark": {
+            "population": "4511.425",
+            "employment": "520"
+        },
+        "Finland": {
+            "population": "4427.75",
+            "employment": "368.2"
+        },
+        "Lithuania": {
+            "population": "2702.2",
+            "employment": "87.14"
+        },
+        "Sweden": {
+            "population": "7754.3",
+            "employment": "739"
+        },
+        "Slovenia": {
+            "population": "1752.55",
+            "employment": "53.617"
+        },
+        "Spain": {
+            "population": "39096.32",
+            "employment": "1278.9"
+        },
+        "Iceland": {
+            "population": "223.075",
+            "employment": "20.7"
+        },
+        "Ireland": {
+            "population": "3598.1",
+            "employment": "233.488215"
+        },
+        "Belgium": {
+            "population": "8977.075",
+            "employment": "510.6"
+        },
+        "Israel": {
+            "population": "5398.725",
+            "employment": "299.695343"
+        },
+        "Norway": {
+            "population": "3550.825",
+            "employment": "515"
+        },
+        "United Kingdom": {
+            "population": "49769.5",
+            "employment": "3485.992"
+        }
+    },
+    "2015": {
+        "Germany": {
+            "population": "70070.05",
+            "employment": "5493"
+        },
+        "Hungary": {
+            "population": "8251.6",
+            "employment": "296.577"
+        },
+        "Italy": {
+            "population": "52070.23",
+            "employment": "1886.9"
+        },
+        "Slovenia": {
+            "population": "1758.25",
+            "employment": "59.356"
+        },
+        "Spain": {
+            "population": "38964.7",
+            "employment": "1355.8"
+        },
+        "Iceland": {
+            "population": "230.45",
+            "employment": "20.9"
+        },
+        "Latvia": {
+            "population": "1655.25",
+            "employment": "47.249"
+        },
+        "Estonia": {
+            "population": "1099.625",
+            "employment": "38.59"
+        },
+        "Poland": {
+            "population": "30962.1",
+            "employment": "943.8"
+        },
+        "Israel": {
+            "population": "6000.117",
+            "employment": "411.076883"
+        },
+        "Norway": {
+            "population": "4246.925",
+            "employment": "569"
+        },
+        "United Kingdom": {
+            "population": "52086.25",
+            "employment": "3865.905"
+        },
+        "Denmark": {
+            "population": "4714.05",
+            "employment": "506"
+        },
+        "Finland": {
+            "population": "4562.025",
+            "employment": "402.4"
+        },
+        "Lithuania": {
+            "population": "2483.05",
+            "employment": "89.795"
+        },
+        "Portugal": {
+            "population": "8866.2",
+            "employment": "365.364"
+        },
+        "Japan": {
+            "population": "111045.8",
+            "employment": "8030"
+        },
+        "Sweden": {
+            "population": "8060.45",
+            "employment": "808"
+        },
+        "Ireland": {
+            "population": "3693.475",
+            "employment": "269.43459"
+        },
+        "Mexico": {
+            "population": "88456.05",
+            "employment": "1216.797"
+        },
+        "Belgium": {
+            "population": "9329.425",
+            "employment": "590.4"
+        },
+        "New Zealand": {
+            "population": "3640.525",
+            "employment": "255.6"
+        },
+        "European Union (27 countries from 01/02/2020)": {
+            "population": "371150.8",
+            "employment": "20281.988481"
+        },
+        "Euro area (20 countries)": {
+            "population": "283676.1",
+            "employment": "16831.580949"
+        },
+        "Luxembourg": {
+            "population": "459.9",
+            "employment": "41.844"
+        },
+        "Greece": {
+            "population": "9246.55",
+            "employment": "243.794"
+        },
+        "Australia": {
+            "population": "19269.57",
+            "employment": "1567.955841"
+        },
+        "Switzerland": {
+            "population": "6995.5",
+            "employment": "637.901627"
+        },
+        "Costa Rica": {
+            "population": "3716.441",
+            "employment": "72.057"
+        },
+        "Slovak Republic": {
+            "population": "4591.2",
+            "employment": "130.858"
+        },
+        "United States": {
+            "population": "250800.6",
+            "employment": "20076"
+        },
+        "France": {
+            "population": "52665.48",
+            "employment": "3869"
+        },
+        "Austria": {
+            "population": "7246.2",
+            "employment": "438.54"
+        },
+        "Korea": {
+            "population": "43239.32",
+            "employment": "1781"
+        },
+        "Canada": {
+            "population": "29076.47",
+            "employment": "2046.565"
+        },
+        "Czechia": {
+            "population": "8935.7",
+            "employment": "326.733"
+        },
+        "Colombia": {
+            "population": "33765.7",
+            "employment": "840.22"
+        },
+        "Netherlands": {
+            "population": "13874.1",
+            "employment": "1378"
+        }
+    },
+    "2013": {
+        "Denmark": {
+            "population": "4634.475",
+            "employment": "511"
+        },
+        "Finland": {
+            "population": "4524.75",
+            "employment": "395.9"
+        },
+        "Italy": {
+            "population": "51767.88",
+            "employment": "1816.6"
+        },
+        "Sweden": {
+            "population": "7959.125",
+            "employment": "760"
+        },
+        "Slovenia": {
+            "population": "1760.25",
+            "employment": "57.681"
+        },
+        "Spain": {
+            "population": "39065.1",
+            "employment": "1294"
+        },
+        "Iceland": {
+            "population": "226.9",
+            "employment": "20.1"
+        },
+        "Latvia": {
+            "population": "1706.5",
+            "employment": "47.543"
+        },
+        "Israel": {
+            "population": "5775.092",
+            "employment": "369.100867"
+        },
+        "Norway": {
+            "population": "3789.95",
+            "employment": "555"
+        },
+        "United Kingdom": {
+            "population": "51304",
+            "employment": "3808.577"
+        },
+        "Lithuania": {
+            "population": "2526.275",
+            "employment": "84.771"
+        },
+        "Portugal": {
+            "population": "8911.875",
+            "employment": "350.998"
+        },
+        "Japan": {
+            "population": "111027.5",
+            "employment": "7510"
+        },
+        "Luxembourg": {
+            "population": "426.875",
+            "employment": "38.802"
+        },
+        "Ireland": {
+            "population": "3625.2",
+            "employment": "260.263603"
+        },
+        "Mexico": {
+            "population": "85889.61",
+            "employment": "1203.058"
+        },
+        "Belgium": {
+            "population": "9236.725",
+            "employment": "567.7"
+        },
+        "New Zealand": {
+            "population": "3484.925",
+            "employment": "242.7"
+        },
+        "United States": {
+            "population": "245679.3",
+            "employment": "19562"
+        },
+        "European Union (27 countries from 01/02/2020)": {
+            "population": "367938.1",
+            "employment": "19595.569261"
+        },
+        "Korea": {
+            "population": "42303.79",
+            "employment": "1565.5"
+        },
+        "Czechia": {
+            "population": "8951.475",
+            "employment": "316.588"
+        },
+        "Euro area (20 countries)": {
+            "population": "280299.8",
+            "employment": "16252.917845"
+        },
+        "Germany": {
+            "population": "69115.5",
+            "employment": "5192"
+        },
+        "Greece": {
+            "population": "9309.5",
+            "employment": "244.71"
+        },
+        "Australia": {
+            "population": "18701.14",
+            "employment": "1383.774093"
+        },
+        "Switzerland": {
+            "population": "6828.7",
+            "employment": "595.029366"
+        },
+        "Costa Rica": {
+            "population": "3589.698",
+            "employment": "84.057"
+        },
+        "Slovak Republic": {
+            "population": "4580.3",
+            "employment": "123.989"
+        },
+        "France": {
+            "population": "50720.88",
+            "employment": "3777"
+        },
+        "Estonia": {
+            "population": "1108.875",
+            "employment": "36.04"
+        },
+        "Austria": {
+            "population": "7117.575",
+            "employment": "419.94"
+        },
+        "Canada": {
+            "population": "28546.43",
+            "employment": "1960.06"
+        },
+        "Poland": {
+            "population": "31036.35",
+            "employment": "938"
+        },
+        "Netherlands": {
+            "population": "13752.65",
+            "employment": "1427"
+        },
+        "Hungary": {
+            "population": "8305.425",
+            "employment": "279.869"
+        }
+    },
+    "2019": {
+        "Ireland": {
+            "population": "3919.375",
+            "employment": "290.205587"
+        },
+        "Mexico": {
+            "population": "94033.84",
+            "employment": "1278.968"
+        },
+        "Belgium": {
+            "population": "9387.175",
+            "employment": "647.9"
+        },
+        "New Zealand": {
+            "population": "3984.45",
+            "employment": "284.4"
+        },
+        "European Union (27 countries from 01/02/2020)": {
+            "population": "373249.6",
+            "employment": "21759.865995"
+        },
+        "Euro area (20 countries)": {
+            "population": "286783.5",
+            "employment": "18106.693825"
+        },
+        "Luxembourg": {
+            "population": "505.025",
+            "employment": "49.371"
+        },
+        "Greece": {
+            "population": "9103.525",
+            "employment": "268.66"
+        },
+        "Switzerland": {
+            "population": "7213.8",
+            "employment": "709.487587"
+        },
+        "Costa Rica": {
+            "population": "3943.649",
+            "employment": "92.386"
+        },
+        "Slovak Republic": {
+            "population": "4592.4",
+            "employment": "140.037"
+        },
+        "United States": {
+            "population": "259175",
+            "employment": "21701"
+        },
+        "France": {
+            "population": "53599.65",
+            "employment": "3933"
+        },
+        "Austria": {
+            "population": "7430.175",
+            "employment": "466.49"
+        },
+        "Korea": {
+            "population": "44503.68",
+            "employment": "2206"
+        },
+        "Canada": {
+            "population": "30694.8",
+            "employment": "2243.115"
+        },
+        "Czechia": {
+            "population": "8963.5",
+            "employment": "356.553"
+        },
+        "Colombia": {
+            "population": "36610.77",
+            "employment": "898.35"
+        },
+        "Netherlands": {
+            "population": "14350.78",
+            "employment": "1493"
+        },
+        "Germany": {
+            "population": "70694.35",
+            "employment": "6038"
+        },
+        "Hungary": {
+            "population": "8182.05",
+            "employment": "318.598"
+        },
+        "Finland": {
+            "population": "4627.15",
+            "employment": "438.3"
+        },
+        "Italy": {
+            "population": "51993.43",
+            "employment": "1982.2"
+        },
+        "Slovenia": {
+            "population": "1770.8",
+            "employment": "67.217"
+        },
+        "Spain": {
+            "population": "39758.98",
+            "employment": "1546.1"
+        },
+        "Iceland": {
+            "population": "256.425",
+            "employment": "23.6"
+        },
+        "Latvia": {
+            "population": "1586.45",
+            "employment": "50.338"
+        },
+        "Estonia": {
+            "population": "1103.825",
+            "employment": "39.97"
+        },
+        "Poland": {
+            "population": "30282.57",
+            "employment": "982.6"
+        },
+        "Israel": {
+            "population": "6493.742",
+            "employment": "457.217758"
+        },
+        "Norway": {
+            "population": "4392.85",
+            "employment": "593"
+        },
+        "United Kingdom": {
+            "population": "53310.5",
+            "employment": "4027.383"
+        },
+        "Denmark": {
+            "population": "4857.2",
+            "employment": "524"
+        },
+        "Lithuania": {
+            "population": "2368.25",
+            "employment": "99.431"
+        },
+        "Portugal": {
+            "population": "8863.575",
+            "employment": "405.637"
+        },
+        "Japan": {
+            "population": "111029.2",
+            "employment": "8641"
+        },
+        "Sweden": {
+            "population": "8311.85",
+            "employment": "851"
+        }
+    },
+    "2020": {
+        "United States": {
+            "population": "260329",
+            "employment": "20738"
+        },
+        "European Union (27 countries from 01/02/2020)": {
+            "population": "373912.2",
+            "employment": "22093.764057"
+        },
+        "Korea": {
+            "population": "44785.04",
+            "employment": "2336.3"
+        },
+        "Czechia": {
+            "population": "8984.55",
+            "employment": "369.137"
+        },
+        "Euro area (20 countries)": {
+            "population": "287526.8",
+            "employment": "18389.924747"
+        },
+        "Germany": {
+            "population": "71130.88",
+            "employment": "6143"
+        },
+        "Greece": {
+            "population": "9078.95",
+            "employment": "281.871"
+        },
+        "Italy": {
+            "population": "51977.23",
+            "employment": "2005.9"
+        },
+        "Switzerland": {
+            "population": "7269.9",
+            "employment": "719.128289"
+        },
+        "Costa Rica": {
+            "population": "3995.963",
+            "employment": "85.503"
+        },
+        "Iceland": {
+            "population": "260.575",
+            "employment": "25.5"
+        },
+        "Slovak Republic": {
+            "population": "4594.2",
+            "employment": "142.112"
+        },
+        "France": {
+            "population": "53811.05",
+            "employment": "3955"
+        },
+        "Latvia": {
+            "population": "1575.475",
+            "employment": "51.276"
+        },
+        "Estonia": {
+            "population": "1107.275",
+            "employment": "39.99"
+        },
+        "Austria": {
+            "population": "7471.15",
+            "employment": "474.48"
+        },
+        "Canada": {
+            "population": "31052.59",
+            "employment": "2211.94"
+        },
+        "Colombia": {
+            "population": "37444.98",
+            "employment": "777.17"
+        },
+        "Poland": {
+            "population": "30270.53",
+            "employment": "1003.4"
+        },
+        "Netherlands": {
+            "population": "14466.33",
+            "employment": "1536"
+        },
+        "Hungary": {
+            "population": "8187.075",
+            "employment": "323.901"
+        },
+        "Denmark": {
+            "population": "4874.025",
+            "employment": "532"
+        },
+        "Finland": {
+            "population": "4643.075",
+            "employment": "438.2"
+        },
+        "Lithuania": {
+            "population": "2370.25",
+            "employment": "96.677"
+        },
+        "Japan": {
+            "population": "110990.8",
+            "employment": "8805"
+        },
+        "Sweden": {
+            "population": "8338.25",
+            "employment": "853"
+        },
+        "Slovenia": {
+            "population": "1781.8",
+            "employment": "69.637"
+        },
+        "Spain": {
+            "population": "40087.05",
+            "employment": "1592.6"
+        },
+        "Ireland": {
+            "population": "3976.975",
+            "employment": "287.406976"
+        },
+        "Belgium": {
+            "population": "9446.875",
+            "employment": "657.4"
+        },
+        "New Zealand": {
+            "population": "4073.7",
+            "employment": "293.6"
+        },
+        "Israel": {
+            "population": "6619.633",
+            "employment": "476.896081"
+        },
+        "Norway": {
+            "population": "4428.675",
+            "employment": "593"
+        },
+        "United Kingdom": {
+            "population": "53505",
+            "employment": "4120.882"
+        },
+        "Portugal": {
+            "population": "8902.875",
+            "employment": "416.032"
+        },
+        "Luxembourg": {
+            "population": "515.8",
+            "employment": "51.908"
+        },
+        "Mexico": {
+            "population": "95878.27",
+            "employment": "1308.284"
+        }
+    },
+    "1998": {
+        "Finland": {
+            "population": "3931.25",
+            "employment": "295.3"
+        },
+        "Portugal": {
+            "population": "8440",
+            "employment": "260.63"
+        },
+        "Japan": {
+            "population": "107175",
+            "employment": "4097"
+        },
+        "United Kingdom": {
+            "population": "45719.5",
+            "employment": "2678.246"
+        },
+        "Czechia": {
+            "population": "8479.6",
+            "employment": "250.583"
+        },
+        "Greece": {
+            "population": "8680.275",
+            "employment": "181.41"
+        },
+        "Italy": {
+            "population": "48470.05",
+            "employment": "1434"
+        },
+        "Australia": {
+            "population": "14644.25",
+            "employment": "797.869854"
+        },
+        "Canada": {
+            "population": "23515.73",
+            "employment": "1376.83"
+        },
+        "Israel": {
+            "population": "4242.825",
+            "employment": "205.6"
+        }
+    },
+    "1999": {
+        "Finland": {
+            "population": "4115.65",
+            "employment": "297.9"
+        },
+        "Italy": {
+            "population": "48586.75",
+            "employment": "1457.2"
+        },
+        "Slovenia": {
+            "population": "1658.275",
+            "employment": "44.413"
+        },
+        "Spain": {
+            "population": "33566.82",
+            "employment": "841.6"
+        },
+        "Israel": {
+            "population": "4358.375",
+            "employment": "216.832069"
+        },
+        "United Kingdom": {
+            "population": "45937.5",
+            "employment": "2711.706"
+        },
+        "Denmark": {
+            "population": "4333.075",
+            "employment": "472"
+        },
+        "Portugal": {
+            "population": "8505.475",
+            "employment": "276.186"
+        },
+        "Japan": {
+            "population": "107685.8",
+            "employment": "4246"
+        },
+        "Belgium": {
+            "population": "8405.6",
+            "employment": "385.8"
+        },
+        "Greece": {
+            "population": "8764.575",
+            "employment": "185.705"
+        },
+        "Australia": {
+            "population": "14837.49",
+            "employment": "841.233715"
+        },
+        "Slovak Republic": {
+            "population": "4267.45",
+            "employment": "136.719"
+        },
+        "Austria": {
+            "population": "6524.55",
+            "employment": "297.65"
+        },
+        "Canada": {
+            "population": "23781.46",
+            "employment": "1422.69"
+        },
+        "Czechia": {
+            "population": "8505.4",
+            "employment": "248.134"
+        },
+        "Hungary": {
+            "population": "8245.375",
+            "employment": "254.331"
+        }
+    },
+    "2023": {
+        "Italy": {
+            "population": "51184.98",
+            "employment": "2072.5"
+        },
+        "Canada": {
+            "population": "32502.07",
+            "employment": "2557.445"
+        },
+        "Switzerland": {
+            "population": "7468.575",
+            "employment": "768.519878"
+        },
+        "Slovak Republic": {
+            "population": "4498.5",
+            "employment": "149.115"
+        }
+    },
+    "2001": {
+        "Norway": {
+            "population": "3201.25",
+            "employment": "431"
+        },
+        "United Kingdom": {
+            "population": "46504.25",
+            "employment": "2855.006"
+        },
+        "Portugal": {
+            "population": "8677.425",
+            "employment": "289.111"
+        },
+        "Japan": {
+            "population": "108770.8",
+            "employment": "4769"
+        },
+        "Belgium": {
+            "population": "8457.95",
+            "employment": "415.8"
+        },
+        "United States": {
+            "population": "215092.5",
+            "employment": "15311"
+        },
+        "Czechia": {
+            "population": "8533.775",
+            "employment": "259.239"
+        },
+        "Greece": {
+            "population": "9156.075",
+            "employment": "180.072"
+        },
+        "Italy": {
+            "population": "48964.6",
+            "employment": "1533.5"
+        },
+        "Australia": {
+            "population": "15271.73",
+            "employment": "901.779226"
+        },
+        "Slovak Republic": {
+            "population": "4342.325",
+            "employment": "140.567"
+        },
+        "Estonia": {
+            "population": "1153.7",
+            "employment": "30.71"
+        },
+        "Austria": {
+            "population": "6616",
+            "employment": "312.28"
+        },
+        "Canada": {
+            "population": "24419.36",
+            "employment": "1509.77"
+        },
+        "Poland": {
+            "population": "30786.7",
+            "employment": "793.6"
+        },
+        "Netherlands": {
+            "population": "12849.5",
+            "employment": "1049"
+        },
+        "Hungary": {
+            "population": "8372.5",
+            "employment": "255.321"
+        },
+        "Denmark": {
+            "population": "4351.65",
+            "employment": "487"
+        },
+        "Finland": {
+            "population": "4232.875",
+            "employment": "314"
+        },
+        "Sweden": {
+            "population": "7263.6",
+            "employment": "715"
+        },
+        "Slovenia": {
+            "population": "1683.35",
+            "employment": "44.819"
+        },
+        "Spain": {
+            "population": "34494.9",
+            "employment": "883.9"
+        },
+        "Ireland": {
+            "population": "3031.525",
+            "employment": "145.226027"
+        },
+        "Israel": {
+            "population": "4604.75",
+            "employment": "235.544277"
+        }
+    },
+    "1996": {
+        "United Kingdom": {
+            "population": "45381.5",
+            "employment": "2683.669"
+        },
+        "Australia": {
+            "population": "14279.66",
+            "employment": "759.433513"
+        },
+        "Israel": {
+            "population": "4019.925",
+            "employment": "182.986567"
+        },
+        "Japan": {
+            "population": "105623.3",
+            "employment": "3770"
+        }
+    },
+    "2003": {
+        "Greece": {
+            "population": "9234.525",
+            "employment": "188.795"
+        },
+        "Australia": {
+            "population": "15709.02",
+            "employment": "951.504036"
+        },
+        "Slovak Republic": {
+            "population": "4352.725",
+            "employment": "139.216"
+        },
+        "France": {
+            "population": "47733.2",
+            "employment": "3109"
+        },
+        "Estonia": {
+            "population": "1140.8",
+            "employment": "36.14"
+        },
+        "Austria": {
+            "population": "6665.975",
+            "employment": "330.02"
+        },
+        "Canada": {
+            "population": "25079.93",
+            "employment": "1603.585"
+        },
+        "Poland": {
+            "population": "30952.28",
+            "employment": "827.3"
+        },
+        "Netherlands": {
+            "population": "13025.55",
+            "employment": "1152"
+        },
+        "Hungary": {
+            "population": "8372.4",
+            "employment": "284.483"
+        },
+        "Finland": {
+            "population": "4269.125",
+            "employment": "324.9"
+        },
+        "Italy": {
+            "population": "49128.9",
+            "employment": "1587.4"
+        },
+        "Sweden": {
+            "population": "7349.1",
+            "employment": "729"
+        },
+        "Slovenia": {
+            "population": "1700.4",
+            "employment": "46.988"
+        },
+        "Spain": {
+            "population": "35807.18",
+            "employment": "989.5"
+        },
+        "Iceland": {
+            "population": "197.125",
+            "employment": "19.1"
+        },
+        "Latvia": {
+            "population": "1900.375",
+            "employment": "48.199"
+        },
+        "Israel": {
+            "population": "4791.75",
+            "employment": "260.148746"
+        },
+        "Norway": {
+            "population": "3246.275",
+            "employment": "445"
+        },
+        "United Kingdom": {
+            "population": "47145.5",
+            "employment": "3004.8"
+        },
+        "Denmark": {
+            "population": "4369.35",
+            "employment": "494"
+        },
+        "Portugal": {
+            "population": "8770",
+            "employment": "303.442"
+        },
+        "Japan": {
+            "population": "109511.7",
+            "employment": "5176"
+        },
+        "Luxembourg": {
+            "population": "358.5",
+            "employment": "21.493"
+        },
+        "Ireland": {
+            "population": "3155.675",
+            "employment": "171.613669"
+        },
+        "Belgium": {
+            "population": "8553.1",
+            "employment": "437.8"
+        },
+        "United States": {
+            "population": "221167.9",
+            "employment": "16432"
+        },
+        "Czechia": {
+            "population": "8604.95",
+            "employment": "274.177"
+        }
+    },
+    "1995": {
+        "United Kingdom": {
+            "population": "45224.75",
+            "employment": "2659.648"
+        },
+        "Australia": {
+            "population": "14079.68",
+            "employment": "759.164539"
+        },
+        "Israel": {
+            "population": "3903.225",
+            "employment": "175.042993"
+        },
+        "Japan": {
+            "population": "105027.5",
+            "employment": "3637"
+        }
+    },
+    "1997": {
+        "Australia": {
+            "population": "14464",
+            "employment": "805.051825"
+        },
+        "Canada": {
+            "population": "23246.67",
+            "employment": "1336.015"
+        },
+        "Israel": {
+            "population": "4129.1",
+            "employment": "187.215347"
+        },
+        "Japan": {
+            "population": "106499.2",
+            "employment": "3929"
+        },
+        "United Kingdom": {
+            "population": "45542",
+            "employment": "2702.066"
+        }
+    },
+    "1993": {
+        "Australia": {
+            "population": "13750.24",
+            "employment": "713.662501"
+        }
+    },
+    "1990": {
+        "Australia": {
+            "population": "13245.55",
+            "employment": "685.340457"
+        }
+    },
+    "1992": {
+        "Australia": {
+            "population": "13604.04",
+            "employment": "679.329037"
+        }
+    },
+    "1991": {
+        "Australia": {
+            "population": "13435.91",
+            "employment": "674.163353"
+        }
+    }
+}
