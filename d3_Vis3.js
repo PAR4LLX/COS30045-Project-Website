@@ -5,7 +5,7 @@ const svg = d3.select("svg"),
 
 // Define the map projection
 const projection = d3.geoNaturalEarth1()
-    .scale(width / 1.3 / Math.PI)
+    .scale(width / 1.5 / Math.PI)
     .translate([width / 2, height / 2]);
 
 // Define the reversed color scale (from green to red)
@@ -72,7 +72,7 @@ d3.json("NewCases.json").then(function(data) {
                         // Get the country name and corresponding value
                         let country = d.properties.name;
                         let value = countryValues[country];
-                        return colorScale(value) || "#69b3a2";  // Default color if value is missing
+                        return colorScale(value) || "#d3d3d3";  // Default color if value is missing
                     })
                     .attr("d", d3.geoPath().projection(projection))
                     .style("stroke", "#fff")
