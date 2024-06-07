@@ -143,7 +143,7 @@ function updateChart(data, healthType, year) {
         baseColor = "green";
         maxHealthStatus = maxGood;
     } else if (healthType === "Fair (not good, not bad) health") {
-        baseColor = "yellow";
+        baseColor = "orange";
         maxHealthStatus = maxFair;
     } else if (healthType === "Bad/very bad health") {
         baseColor = "red";
@@ -153,7 +153,7 @@ function updateChart(data, healthType, year) {
     // Color scales for luminosity
     const gdpColorScale = d3.scaleLinear()
         .domain([0, maxGDP])
-        .range([d3.rgb("lightblue").brighter(2), d3.rgb("darkblue").darker(2)]);
+        .range([d3.rgb("mediumSlateBlue").brighter(2), d3.rgb("darkblue").darker(2)]);
 
     const healthColorScale = d3.scaleLinear()
         .domain([0, maxHealthStatus])
