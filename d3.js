@@ -1,4 +1,3 @@
-
 // Set dimensions and margins for the graph
 const svgWidth = 1000;
 const svgHeight = 600;

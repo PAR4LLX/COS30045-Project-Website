@@ -54,17 +54,22 @@ class DataParser:
             employment_value = dict2[key].get('OBS_VALUE')
             # Only include data if both population and employment values are present
             if population_value and employment_value:
-                combined_dict[year][country] = {
-                    'population': population_value,
-                    'employment': employment_value
-                }
+                population_value = float(population_value)
+                employment_value = float(employment_value)
+                employment_percentage = (employment_value / population_value) * 100
+                combined_dict[country][year] = employment_percentage
+        
+        # Remove entries for "Euro area" and "European Union"
+        combined_dict.pop("Euro area (20 countries)", None)
+        combined_dict.pop("European Union (27 countries from 01/02/2020)", None)
         
         return combined_dict
 
     def save_dict_to_json(self, data_dict: Dict[str, Dict[str, Any]], json_file_path: str):
         try:
             # Ensure the directory exists
-            os.makedirs(os.path.dirname(json_file_path), exist_ok=True)
+            if os.path.dirname(json_file_path):
+                os.makedirs(os.path.dirname(json_file_path), exist_ok=True)
             # Save the data dictionary to a JSON file
             with open(json_file_path, mode='w', encoding='utf-8') as json_file:
                 json.dump(data_dict, json_file, indent=4, ensure_ascii=False)
@@ -73,8 +78,8 @@ class DataParser:
             logging.exception(f"Error saving JSON file: {e}")
 
 # Paths for the CSV files (assume they are in the current directory)
-working_age_population_csv_path = './Working-age population.csv'
-employment_by_activity_csv_path = './Annual employment by detailed economic activity, domestic concept.csv'
+working_age_population_csv_path = 'Working-age population.csv'
+employment_by_activity_csv_path = 'Annual employment by detailed economic activity, domestic concept.csv'
 
 # Create a DataParser instance
 parser = DataParser(working_age_population_csv_path, employment_by_activity_csv_path)
@@ -87,7 +92,7 @@ employment_by_activity_dict = parser.csv_to_dict(employment_by_activity_csv_path
 combined_dict = parser.combine_dicts(working_age_population_dict, employment_by_activity_dict)
 
 # Save the combined dictionary to a JSON file in the current directory
-combined_json_path = './Combined_data_by_year.json'
+combined_json_path = 'Combined_data_by_country.json'
 parser.save_dict_to_json(combined_dict, combined_json_path)
 
 # Print the path of the saved JSON file
