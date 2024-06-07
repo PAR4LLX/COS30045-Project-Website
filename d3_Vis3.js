@@ -1,29 +1,29 @@
-// The svg
+// Set up the SVG element for the map
 const svg = d3.select("svg"),
     width = +svg.attr("width"),
     height = +svg.attr("height");
 
-// Map and projection
+// Define the map projection
 const projection = d3.geoNaturalEarth1()
     .scale(width / 1.3 / Math.PI)
     .translate([width / 2, height / 2]);
 
-// Color mapping
+// Define the reversed color scale (from green to red)
 const colors = [
-    '#ff0000', '#ff1b00', '#ff3600', '#ff5100', '#ff6b00', '#ff8600',
-    '#ffa100', '#ffbc00', '#ffd700', '#fff200', '#f2ff00', '#d7ff00',
-    '#bcff00', '#a1ff00', '#86ff00', '#6bff00', '#51ff00', '#36ff00',
-    '#1bff00', '#00ff00'
+    '#00ff00', '#1bff00', '#36ff00', '#51ff00', '#6bff00', '#86ff00',
+    '#a1ff00', '#bcff00', '#d7ff00', '#f2ff00', '#fff200', '#ffd700',
+    '#ffbc00', '#ffa100', '#ff8600', '#ff6b00', '#ff5100', '#ff3600',
+    '#ff1b00', '#ff0000'
 ];
 
-// Create a tooltip
+// Create a tooltip for displaying additional information
 const tooltip = d3.select("body").append("div")
     .attr("class", "tooltip")
     .style("opacity", 0);
 
-// Load the new cases data
+// Load the new cases data from JSON file
 d3.json("./NewCases.json").then(function(data) {
-    // Populate the year dropdown
+    // Populate the year dropdown with unique years from the data
     const years = [...new Set(data.map(d => d.B).filter(year => year !== "Year"))];
     const yearSelect = d3.select("#yearSelect");
     yearSelect.selectAll("option")
@@ -33,23 +33,23 @@ d3.json("./NewCases.json").then(function(data) {
         .attr("value", d => d)
         .text(d => d);
 
-    // Function to filter data and update the map
+    // Function to filter data and update the map based on user selection
     function updateMap() {
         const selectedYear = yearSelect.property("value");
         const selectedSanitation = d3.select("#healthType").property("value");
         const ignoreSanitation = d3.select("#ignoreSanitation").property("checked");
 
-        // Filter the data based on the selected year and sanitation standard
+        // Filter the data based on the selected year and sanitation standard (if not ignored)
         const filteredData = data.filter(d => {
             if (d.B !== selectedYear) return false;
             if (!ignoreSanitation && d.D !== selectedSanitation) return false;
             return true;
         });
 
-        // Create a mapping from country names to new cases per million
+        // Create an object to map country names to new cases per million (rounded to 2 decimal places)
         const countryValues = {};
         filteredData.forEach(d => {
-            countryValues[d.A] = +d.C;  // Convert to number
+            countryValues[d.A] = +(+d.C).toFixed(2);  // Convert to number and round
         });
 
         // Determine the range of values for the color scale after filtering
@@ -60,19 +60,19 @@ d3.json("./NewCases.json").then(function(data) {
             .domain(values)
             .range(colors);
 
-        // Load external GeoJSON data
+        // Load the GeoJSON data and draw the map
         d3.json("./GeoMap.geojson").then(function(geoData) {
-            // Draw the map
+            // Remove existing paths to update the map
             svg.selectAll("path").remove();
             svg.append("g")
                 .selectAll("path")
                 .data(geoData.features)
                 .join("path")
                     .attr("fill", function(d) {
-                        // Get the country name and value
+                        // Get the country name and corresponding value
                         let country = d.properties.name;
                         let value = countryValues[country];
-                        return colorScale(value) || "#69b3a2"; // Default color if not specified
+                        return colorScale(value) || "#69b3a2";  // Default color if value is missing
                     })
                     .attr("d", d3.geoPath().projection(projection))
                     .style("stroke", "#fff")
@@ -81,7 +81,7 @@ d3.json("./NewCases.json").then(function(data) {
                         tooltip.transition()
                             .duration(200)
                             .style("opacity", .9);
-                        tooltip.html("Country: " + d.properties.name + "<br>New Cases Per Million: " + countryValues[d.properties.name])  // Display country name and value
+                        tooltip.html("Country: " + d.properties.name + "<br>New Cases Per Million: " + countryValues[d.properties.name])  // Show country and value
                             .style("left", (event.pageX) + "px")
                             .style("top", (event.pageY - 28) + "px");
                     })
@@ -97,7 +97,7 @@ d3.json("./NewCases.json").then(function(data) {
     // Initial map rendering
     updateMap();
 
-    // Update the map when the filter values change
+    // Update the map whenever the dropdown selections change
     yearSelect.on("change", updateMap);
     d3.select("#healthType").on("change", updateMap);
     d3.select("#ignoreSanitation").on("change", updateMap);
