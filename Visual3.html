@@ -62,7 +62,7 @@
 
     <main class="container mx-auto mt-16">
         <div class="content-area">
-            <h1 id="graph-title" class="text-2xl font-bold text-center mb-8 text-white">Health Expenditure vs Health Status</h1>
+            <h1 id="graph-title" class="text-2xl font-bold text-center mb-8 text-white">New Covid Cases vs Sanitation Standards</h1>
             <div class="dropdown-container flex justify-around mb-4">
                 <!-- Dropdown menu for selecting the year -->
                 <div>
@@ -71,12 +71,18 @@
                 </div>
                 <!-- Dropdown menu for selecting the health status type -->
                 <div>
-                    <label for="healthType" class="block mb-2 text-white">Select Health Status:</label>
+                    <label for="healthType" class="block mb-2 text-white">Select Sanitation Standard:</label>
                     <select id="healthType" class="bg-stone-700 text-white p-2 rounded">
-                        <option value="Good/very good health">Good Health</option>
-                        <option value="Fair (not good, not bad) health">Fair Health</option>
-                        <option value="Bad/very bad health">Poor Health</option>
+                        <option value="High">High</option>
+                        <option value="Medium-High">Medium-High</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Low-Medium">Low-Medium</option>
+                        <option value="Low">Low</option>
                     </select>
+                </div>
+                <div>
+                    <input type="checkbox" id="ignoreSanitation" class="mr-2">
+                    <label for="ignoreSanitation" class="text-white">Ignore Sanitation Filter</label>
                 </div>
             </div>
             <!-- Container for the D3 visualization -->
