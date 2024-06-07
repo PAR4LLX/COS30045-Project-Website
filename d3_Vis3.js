@@ -22,7 +22,7 @@ const tooltip = d3.select("body").append("div")
     .style("opacity", 0);
 
 // Load the new cases data from JSON file
-d3.json("NewCases.json").then(function(data) {
+d3.json("NewCases.JSON").then(function(data) {
     // Populate the year dropdown with unique years from the data
     const years = [...new Set(data.map(d => d.B).filter(year => year !== "Year"))];
     const yearSelect = d3.select("#yearSelect");
