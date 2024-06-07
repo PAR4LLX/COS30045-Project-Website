@@ -12,22 +12,22 @@ const projection = d3.geoNaturalEarth1()
 const colorMap = {
     1: '#ff0000',
     2: '#ff1b00',
-    3: '#ff3600',
+    "Brazil": '#ff3600',
     4: '#ff5100',
-    5: '#ff6b00',
+    "Chad": '#ff6b00',
     6: '#ff8600',
     7: '#ffa100',
-    8: '#ffbc00',
+    "Australia": '#ffbc00',
     9: '#ffd700',
     10: '#fff200',
-    11: '#f2ff00',
+    "Mexico": '#f2ff00',
     12: '#d7ff00',
     13: '#bcff00',
-    14: '#a1ff00',
+    "Russia": '#a1ff00',
     15: '#86ff00',
     16: '#6bff00',
     17: '#51ff00',
-    18: '#36ff00',
+    "Canada": '#36ff00',
     19: '#1bff00',
     20: '#00ff00'
 };
@@ -47,7 +47,7 @@ d3.json("./GeoMap.geojson").then(function(data) {
         .join("path")
             .attr("fill", function(d) {
                 // Use the color property from the GeoJSON data
-                let value = d.properties.value; // assuming each feature has a 'value' property
+                let value = d.properties.name; // assuming each feature has a 'value' property
                 return colorMap[value] || "#69b3a2"; // Default color if not specified
             })
             .attr("d", d3.geoPath().projection(projection))
